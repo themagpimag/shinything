@@ -1,0 +1,18 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## Scribus specific
+*.pdf
+
+## For java
+*.class
+
+## For python
+*.pyc
+
+## C/C++/Fortran etc..
+*.o
