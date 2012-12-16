@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.4.1.svn">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.276" PAGEHEIGHT="841.89" BORDERLEFT="0" BORDERRIGHT="0" BORDERTOP="0" BORDERBOTTOM="0" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="1" AUTOSPALTEN="1" ABSTSPALTEN="10.9984" UNITS="1" DFONT="Nimbus Sans L Regular Condensed" DSIZE="12" DCOL="1" DGAP="14.4" TabFill="" TabWidth="36" AUTHOR="Jaseman" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="The MagPi Standard Double-page Layout for Scribus on the Pi" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="" DPPr="" DPIn="" DPInCMYK="" DPIn2="" DPIn3="" DISc="1" DIIm="0" ALAYER="3" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0013" MAJGRID="100.001" SHOWGRID="0" SHOWGUIDES="1" showcolborders="0" SHOWFRAME="1" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10.0006" GRAB="4" POLYC="4" POLYF="0.707107" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="0" AutoSaveTime="600000" ScratchBottom="20.0013" ScratchLeft="100.001" ScratchRight="100.001" ScratchTop="20.0013" GapHorizontal="0" GapVertical="39.9997" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="Black" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10" dispY="10" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10.0006" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="4800" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="4800" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="4800" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="4800" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="4800" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <MultiLine Name=""/>
+        <COLOR NAME="Black" CMYK="#000000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Blue" RGB="#0000ff" Spot="0" Register="0"/>
+        <COLOR NAME="C Cave Brown" RGB="#95482b" Spot="0" Register="0"/>
+        <COLOR NAME="C Cave Orange" RGB="#eaac66" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan" RGB="#00ffff" Spot="0" Register="0"/>
+        <COLOR NAME="Green" RGB="#00ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta" RGB="#ff00ff" Spot="0" Register="0"/>
+        <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
+        <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow" RGB="#ffff00" Spot="0" Register="0"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Body  Headings" ALIGN="3" LINESPMode="0" LINESP="16.8" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Body Text" ALIGN="3" LINESPMode="0" LINESP="14" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Code Text" ALIGN="3" LINESPMode="0" LINESP="12" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Courier 10 Pitch Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Footer Text" ALIGN="2" LINESPMode="0" LINESP="16" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="FreeSans Bold Oblique" FONTSIZE="14" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Main Sub-Heading" ALIGN="3" LINESPMode="0" LINESP="22" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="FreeSans Bold Oblique" FONTSIZE="18" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Fixed Spaced Text" ALIGN="3" LINESPMode="0" LINESP="12" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Courier 10 Pitch Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <LAYERS NUMMER="1" LEVEL="3" NAME="PageNumbers" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
+        <LAYERS NUMMER="2" LEVEL="1" NAME="Images" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
+        <LAYERS NUMMER="3" LEVEL="2" NAME="Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
+        <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="1" bleedMarks="0" registrationMarks="0" colorMarks="1" includePDFMarks="1" PSLevel="0" PDLanguage="0" markOffset="-9.56381512875776e+305" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="14" Intent="1" Intent2="1" SolidP="" ImageP="" PrintP="" InfoString="" BTop="28.3464566929134" BLeft="53.8582677165354" BRight="28.3464566929134" BBottom="28.3464566929134" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Bitstream Charter Bold"/>
+            <Fonts Name="Nimbus Sans L Bold Condensed"/>
+            <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Regular"/>
+            <Subset Name="Monaco Regular"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Double Sided" FirstPage="0" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="3" Type="Type_1_2_3" Start="1" Reversed="0" Active="1"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100.001" PAGEYPOS="20.0013" PAGEWIDTH="595.276" PAGEHEIGHT="841.89" BORDERLEFT="53.8583" BORDERRIGHT="28.3465" BORDERTOP="28.3465" BORDERBOTTOM="28.3465" NUM="0" NAM="Normal" MNAM="" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.001" PAGEYPOS="20.0013" PAGEWIDTH="595.276" PAGEHEIGHT="841.89" BORDERLEFT="53.8583" BORDERRIGHT="28.3465" BORDERTOP="28.3465" BORDERBOTTOM="28.3465" NUM="0" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="802.249 36.8504 85.0394 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="695.277" PAGEYPOS="20.0013" PAGEWIDTH="595.276" PAGEHEIGHT="841.89" BORDERLEFT="53.8583" BORDERRIGHT="28.3465" BORDERTOP="28.3465" BORDERBOTTOM="28.3465" NUM="1" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="802.249 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.001" PAGEYPOS="901.891" PAGEWIDTH="595.276" PAGEHEIGHT="841.89" BORDERLEFT="53.8583" BORDERRIGHT="28.3465" BORDERTOP="28.3465" BORDERBOTTOM="28.3465" NUM="2" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="802.249 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="695.277" PAGEYPOS="901.891" PAGEWIDTH="595.276" PAGEHEIGHT="841.89" BORDERLEFT="53.8583" BORDERRIGHT="28.3465" BORDERTOP="28.3465" BORDERBOTTOM="28.3465" NUM="3" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="802.249 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347503662109" YPOS="629.443298339844" WIDTH="513.071166992188" HEIGHT="140.288635253906" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 140.289 513.071 140.289 513.071 140.289 513.071 140.289 0 140.289 0 140.289 0 140.289 0 140.289 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 140.289 513.071 140.289 513.071 140.289 513.071 140.289 0 140.289 0 140.289 0 140.289 0 140.289 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="100" YPOS="833.545" WIDTH="28.3465" HEIGHT="27.955" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="LeftPgNo" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 27.955 28.3465 27.955 28.3465 27.955 28.3465 27.955 0 27.955 0 27.955 0 27.955 0 27.955 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 27.955 28.3465 27.955 28.3465 27.955 28.3465 27.955 0 27.955 0 27.955 0 27.955 0 27.955 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="3.60918999997919e-313" gYpos="6.36598999984286e-314" gWidth="0" gHeight="1.80391998623472e-316" ALIGN="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="20"/>
+            <trail ALIGN="2"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="1262.21" YPOS="833.545" WIDTH="28.3465" HEIGHT="26.955" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="RightPgNo" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 26.955 28.3465 26.955 28.3465 26.955 28.3465 26.955 0 26.955 0 26.955 0 26.955 0 26.955 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 26.955 28.3465 26.955 28.3465 26.955 28.3465 26.955 0 26.955 0 26.955 0 26.955 0 26.955 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="8.37254e-298" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="21"/>
+            <trail ALIGN="0"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347716113281" YPOS="204.2532296875" WIDTH="513.070983886719" HEIGHT="617.9970703125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="28.3465" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="LeftPageBodyText" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 617.997 513.071 617.997 513.071 617.997 513.071 617.997 0 617.997 0 617.997 0 617.997 0 617.997 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 617.997 513.071 617.997 513.071 617.997 513.071 617.997 0 617.997 0 617.997 0 617.997 0 617.997 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="1125.47" gYpos="19.2012" gWidth="1125.97" gHeight="20.2012" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="4" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="How did you get on with the challenge problem?  Let us take a quick look at the solution before continuing"/>
+            <ITEXT CH="."/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Challenge solution"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  #include &lt;stdio.h&gt;"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  int main()"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    int nterms, term = 0, i;"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    printf(&quot;How many terms? &quot;);"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  /* Ask the user for input */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    scanf(&quot;%d&quot;, &amp;nterms);"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  /* Read the whole number */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    for(i=1;i&lt;=nterms;i++)"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  /* Loop over the terms in the series */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="      term += i;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  /* Sum the counter to produce each term */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="      printf(&quot;%d &quot;,term);"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  /* Print this term */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    printf(&quot;\n&quot;);"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  /* Print a new line character before the program exits */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    return 0;"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Functions"/>
+            <para ALIGN="0"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="It is a good idea to write a program as a set of clearly defined functions which many be called once or more."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="  This can improve the robustness of code as well as the readability.  Before a function can be called in a program it has to be declared.  This is true for standard functions as well as any other functions.  The declaration can be within a header file or within the same source file, as long as the declaration is before the usage.  For example, a simple function which returns an unsigned integer and has an unsigned integer argument, can be declared as:"/>
+            <para ALIGN="0"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" CH="  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="unsigned int factorial(unsigned int x);  /* Declare function */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The name of the input variable is not strictly needed, but can help the reader remember what the variable relates to.  The declaration of a function is needed to compile a program.  However, for the final program to be linked to form an executable the function must be implemented in a source file or library.  In this case, the implementation of the function is,"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  unsigned int "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="factorial(unsigned int x)"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    /* 0! is one. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    unsigned int result = 1;   /* Declare an variable to hold the return value */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    while(x&gt;0)   "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="/* Loop while x is greater than zero */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      result *= x;   /* multiply x by result and assign to result */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      x--;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  /* Decrement x by one */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    return result;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="   /* Return x! when x is not zero. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The variable "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="x"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" and the return type are defined as an unsigned int, since the function cannot compute the negative factorial of an input value.  The function also uses another of the loop types, the while loop.  The while loop executes the compound statement within "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="{}"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" as long as the condition between the parentheses "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="()"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" is true."/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The new function can now be used in a program,"/>
+            <para/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" CH="  #include &lt;stdio.h&gt;"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="unsigned int factorial(unsigned int x);"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  int main()"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  unsigned int i = 3;   /* Declare an int and assign it the value three. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    printf(&quot;%d! = %d\n&quot;,i,factorial(i));"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="   /* Print factorial of i */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    return 0;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" /* Return success to the operating system. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="When a simple variable is passed into a function the value of the variable is copied into a new memory location.  This new memory location is not connected with the first memory location.  Therefore, if the value of "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="x"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" is modified inside the function "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="factorial"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=", the value of "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="i"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" will remain three after the function call."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="  To change this behaviour pointers can be used."/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Pointers"/>
+            <para ALIGN="0"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Unlike simple variables, a pointer stores the address of a memory location.  The memory location can be a simple variable, or function, or structure of some sort.  The type of the pointer normally has to be the same as the type of the variable, to which the pointer points.  When implemented correctly within a program, using pointers can produce more efficient code.  A pointer is declared by prepending a variable name with an asterix.  For example, a pointer of type "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="int"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" can be declared via,"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  int *p = 0;  /* Declare a pointer p and assign it a null address. */"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The pointer can then be given the address of another variable,"/>
+            <para/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" CH="  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="int i; /* Declare an int i. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  p = &amp;i; /* Assign the address of i to p. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The assignment can also take place through a function call,"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="#include &lt;stdio.h&gt;"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  void fun(int, int *); /* A function with no return value. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  int main()"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  int np = 1, p = 1; /* Initialise two int variables */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="   "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" printf(&quot;&amp;np=%p, p=%p\n&quot;,&amp;np, &amp;p);"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" /* Print the addresses. */ "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    printf(&quot;Before fun(): np=%d, p=%d\n&quot;,np,p);"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="   /* Print the values. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    fun(np,&amp;p); /* Pass the value of np and the address of p. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="    return 0;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="   /* Return success to the operating system. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" CH="  }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  void fun(int np, int *p)"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    np = 2;  /* Assign 2 to the local variable np. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    *p = 2;  /* Assign 2 to the memory of p defined in main. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    printf(&quot;&amp;np=%p, p=%p\n&quot;,&amp;np, p); /* Print the addresses. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT CH="  "/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="In this example, the address of the variable "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="p"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" defined in the main function is passed to the pointer "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="p"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" in the function "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="fun"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=".  The value in this memory address is then changed by dereferencing the pointer, by using an asterix in front of the pointer name.  Notice, that when a pointer is declared an asterix must be used.  However, when a pointer is declared the pointer can be assigned an address rather than a value."/>
+            <para/>
+            <para/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Pointers can also be used together with arrays,"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  #include &lt;stdio.h&gt;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  int main() {"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  int "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="i, *p, arr[4] = {6,2,4,7};"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="    "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="p = &amp;arr[0]; /* Assign the address of the first element to p */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    for(i=0;i&lt;(sizeof(arr)/sizeof(int));i++) { "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      printf(&quot;arr[%d]=%d\n&quot;,i,*p);"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      p++; /* Increment the address by sizeof(int) */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="    return 0;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="   /* Return success to the operating system. */"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  }"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The name of an array is also a pointer.  Therefore, an array can be modified within a function via,"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  void changeArray(int *p, unsigned int n) {"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    int i;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    for(i=0;i&lt;n;i++) p[i] = i;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  }"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  int main() {"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    int arr[4] = {0, 0, 0, 0};"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    changeArray(arr,"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="4"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=");"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Command line"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Arguments from the command line can be used by using another form of the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="main"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" function,"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  #include &lt;stdio.h&gt;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  int main(int argc, char *argv[]) { "/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    int i;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    for(i=0;i&lt;argc;i++) {  /* Loop over the arguments */"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      printf(&quot;argv[%d] = %s\n&quot;,i,argv[i]); /* Print each argument out */"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    }"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    return 0;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  }"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The arguments are passed as an array of strings, where a string is a character array.  Test this program out by running it with some command line arguments, e.g.:"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="./commandLine oneArg otherArg"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Files"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Other than reading from the keyboard or writing to the screen, it is often necessary to write to or read from files stored on a hard drive or memory card.  File accesses can be made using binary or ASCII mode.  In this tutorial only ASCII mode will be discussed.  Before a file can be opened a "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="FILE"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" pointer should be declared,"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  FILE *filePtr = 0; /* Declare a file pointer and set it to null */"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Then the file can be opened for reading "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="&quot;r&quot;"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=", or writing "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="&quot;w&quot;"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=".  For example, to write a file called textFile.txt:"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  filePtr = fopen(&quot;textFile.txt&quot;,&quot;w&quot;);   /* Open textFile.txt for writing */"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="If the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="fopen"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" call fails, then "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="FILE"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" pointer is set to null.  Once the file has been opened, commands very similar to those used to read from the keyboard or write to the screen can be used to access the file,"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  fprintf(filePtr,&quot;Writing out some important data...%d, %d, %d\n&quot;,2,3,4);"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When the file access has been completed it has to be closed, flushing any data in memory to the disk."/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  fclose(filePtr);   /* Close textFile.txt, flushing data to disk */"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The final example program uses many of the concepts discussed so far, to provide a simple encryption algorithm"/>
+            <ITEXT CH=","/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  #include &lt;stdio.h&gt;"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  int main(int argc, char *argv[]) {"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    int mask = 163; /* Declare an int and assign it with a value less than 256. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    char c; /* Declare a character (which is one byte, maximum value 255.) */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    FILE *inputFile = 0, *outputFile = 0; /* declare two file pointers */"/>
+            <para LINESP="12"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    if(argc!=3) {  /* Check the number of arguments */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      printf(&quot; Usage: %s &lt;input file&gt; &lt;output file&gt;\n&quot;,argv[0]);"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      return 1; /* Report an error */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    }"/>
+            <para LINESP="12"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    inputFile = fopen(argv[1],&quot;r&quot;); /* Open the input file. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    if(!inputFile) return 2; /* If file pointer is null return an error. */"/>
+            <para LINESP="12"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    outputFile = fopen(argv[2],&quot;w&quot;); /* Open the output file. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    if(!outputFile) return 3; /* If the file pointer is null return an error */"/>
+            <para LINESP="12"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    c = fgetc(inputFile); /* Get the first character. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    while(c != EOF) {  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="/* Loop until end-of-file is reached. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      c ^= mask; /* Exclusive-OR with the mask. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      fputc(c,outputFile); /* Write to the output file. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="      c = fgetc(inputFile); /* Get another character. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    }"/>
+            <para LINESP="12"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    fclose(inputFile);  /* Close the input file. */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    fclose(outputFile);  /* Close the output file. */"/>
+            <para LINESP="12"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    return 0; /* Return success to the operating system */"/>
+            <para LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  }"/>
+            <para LINESP="12"/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="The program uses an exclusive-OR to encrypt and decrypt files. An exclusive-OR is true if either bit is set and false if both or no bits are set"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=". For example"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=", 2 ^ 3 = 1"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" in decimal or in binary "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="10 ^ 11 = 01"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=".  Type in a text file with nano and then try to encode the file.  Then run the program again to decode the file."/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FEATURES="inherit underline" CH="Challenge problem"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Improve the encryption algorithm by using a simple random number generator, e.g:"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  #include &lt;stdlib.h&gt;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  int newMask() {"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="int mask = (double)rand()/RAND_MAX*254+1;"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" /* Number between 1 and 255 */"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    return mask;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  }"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  int main(){"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    srand(1234567); /* Set the seed once */"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    int mask = newMask(); /* Get a new mask each time it is used. */"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="    return 0;"/>
+            <para/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  }"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The solution to the problem will be given next time. "/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold Oblique" CH="Article by W. H. Bell &amp; D. Shepley"/>
+            <trail ALIGN="2"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="749.1355" YPOS="48.5983" WIDTH="513.071" HEIGHT="773.652" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="28.3465" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="RightPageBodyText" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.652 513.071 773.652 513.071 773.652 513.071 773.652 0 773.652 0 773.652 0 773.652 0 773.652 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.652 513.071 773.652 513.071 773.652 513.071 773.652 0 773.652 0 773.652 0 773.652 0 773.652 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="-1.96282e+30" gYpos="-1.96282e+30" gWidth="-1.96282e+30" gHeight="-1.96282e+30" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="14" BACKITEM="3">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347" YPOS="161.733583464567" WIDTH="513.072" HEIGHT="52.9208" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="22" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold Oblique" ISIZE="18" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="IntroText" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.072 0 513.072 0 513.072 0 513.072 0 513.072 52.9208 513.072 52.9208 513.072 52.9208 513.072 52.9208 0 52.9208 0 52.9208 0 52.9208 0 52.9208 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.072 0 513.072 0 513.072 0 513.072 0 513.072 52.9208 513.072 52.9208 513.072 52.9208 513.072 52.9208 0 52.9208 0 52.9208 0 52.9208 0 52.9208 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="12.8458" gYpos="5.09278999999536e-313" gWidth="280.939" gHeight="10.5126" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="18" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Tutorial 3 - Functions, pointers and files."/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="100" YPOS="1715.4347" WIDTH="28.3465" HEIGHT="27.955" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of LeftPgNo" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 27.955 28.3465 27.955 28.3465 27.955 28.3465 27.955 0 27.955 0 27.955 0 27.955 0 27.955 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 27.955 28.3465 27.955 28.3465 27.955 28.3465 27.955 0 27.955 0 27.955 0 27.955 0 27.955 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="22"/>
+            <trail ALIGN="2"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347702026367" YPOS="930.237487792969" WIDTH="513.070983886719" HEIGHT="785.196960449219" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="28.3465" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of LeftPageBodyText" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 785.197 513.071 785.197 513.071 785.197 513.071 785.197 0 785.197 0 785.197 0 785.197 0 785.197 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 785.197 513.071 785.197 513.071 785.197 513.071 785.197 0 785.197 0 785.197 0 785.197 0 785.197 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="1262.21" YPOS="1715.4347" WIDTH="28.3465" HEIGHT="26.955" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of RightPgNo" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 26.955 28.3465 26.955 28.3465 26.955 28.3465 26.955 0 26.955 0 26.955 0 26.955 0 26.955 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 26.955 28.3465 26.955 28.3465 26.955 28.3465 26.955 0 26.955 0 26.955 0 26.955 0 26.955 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="23"/>
+            <trail ALIGN="0"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="749.135" YPOS="930.2375" WIDTH="513.071" HEIGHT="773.652" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="28.3465" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of RightPageBodyText" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.652 513.071 773.652 513.071 773.652 513.071 773.652 0 773.652 0 773.652 0 773.652 0 773.652 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.652 513.071 773.652 513.071 773.652 513.071 773.652 0 773.652 0 773.652 0 773.652 0 773.652 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="100.001" YPOS="20.0013" WIDTH="595.275590551181" HEIGHT="127.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.193774606299213" LOCALSCY="0.193774606299213" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../issue4/page_24-27/C_Cave.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 595.276 0 595.276 0 595.276 0 595.276 0 595.276 127.5 595.276 127.5 595.276 127.5 595.276 127.5 0 127.5 0 127.5 0 127.5 0 127.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 595.276 0 595.276 0 595.276 0 595.276 0 595.276 127.5 595.276 127.5 595.276 127.5 595.276 127.5 0 127.5 0 127.5 0 127.5 0 127.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="157.5" YPOS="56.851692199707" WIDTH="165.75" HEIGHT="48.1889801025391" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.195097085435381" LOCALSCY="0.195097085435381" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../issue4/page_24-27/C_Cave text the.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 165.75 0 165.75 0 165.75 0 165.75 0 165.75 48.189 165.75 48.189 165.75 48.189 165.75 48.189 0 48.189 0 48.189 0 48.189 0 48.189 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 165.75 0 165.75 0 165.75 0 165.75 0 165.75 48.189 165.75 48.189 165.75 48.189 165.75 48.189 0 48.189 0 48.189 0 48.189 0 48.189 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="477.75" YPOS="56.851692199707" WIDTH="163.668701171875" HEIGHT="49.648307800293" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.191201753705461" LOCALSCY="0.191201753705461" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../issue4/page_24-27/C_Cave text cave.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 163.669 0 163.669 0 163.669 0 163.669 0 163.669 49.6483 163.669 49.6483 163.669 49.6483 163.669 49.6483 0 49.6483 0 49.6483 0 49.6483 0 49.6483 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 163.669 0 163.669 0 163.669 0 163.669 0 163.669 49.6483 163.669 49.6483 163.669 49.6483 163.669 49.6483 0 49.6483 0 49.6483 0 49.6483 0 49.6483 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="408.977386474609" YPOS="133.387130737305" WIDTH="232.441314697266" HEIGHT="13.6128692626953" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 232.441 0 232.441 0 232.441 0 232.441 0 232.441 13.6129 232.441 13.6129 232.441 13.6129 232.441 13.6129 0 13.6129 0 13.6129 0 13.6129 0 13.6129 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 232.441 0 232.441 0 232.441 0 232.441 0 232.441 13.6129 232.441 13.6129 232.441 13.6129 232.441 13.6129 0 13.6129 0 13.6129 0 13.6129 0 13.6129 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="12" FEATURES="inherit shadowed" FCOLOR="C Cave Orange" FSHADE="100" TXTSHX="8" TXTSHY="-8" CH="A place of basic low-level programming"/>
+            <trail ALIGN="2"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.3475" YPOS="930.2375" WIDTH="513.0712" HEIGHT="773.9025" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.902 513.071 773.902 513.071 773.902 513.071 773.902 0 773.902 0 773.902 0 773.902 0 773.902 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.902 513.071 773.902 513.071 773.902 513.071 773.902 0 773.902 0 773.902 0 773.902 0 773.902 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="15" BACKITEM="4">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="749.1353" YPOS="930.2375" WIDTH="513.0712" HEIGHT="773.9025" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" TXTKERN="0" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.902 513.071 773.902 513.071 773.902 513.071 773.902 0 773.902 0 773.902 0 773.902 0 773.902 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.902 513.071 773.902 513.071 773.902 513.071 773.902 0 773.902 0 773.902 0 773.902 0 773.902 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="14">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347503662109" YPOS="959.752563476562" WIDTH="513.071166992188" HEIGHT="127.670166015625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Polygon187" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 127.67 513.071 127.67 513.071 127.67 513.071 127.67 0 127.67 0 127.67 0 127.67 0 127.67 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 127.67 513.071 127.67 513.071 127.67 513.071 127.67 0 127.67 0 127.67 0 127.67 0 127.67 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="749.135314941406" YPOS="507.039195143332" WIDTH="513.071166992188" HEIGHT="208.577331542969" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 208.577 513.071 208.577 513.071 208.577 513.071 208.577 0 208.577 0 208.577 0 208.577 0 208.577 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 208.577 513.071 208.577 513.071 208.577 513.071 208.577 0 208.577 0 208.577 0 208.577 0 208.577 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="749.135314941406" YPOS="391.245402418723" WIDTH="513.071166992188" HEIGHT="19.2989501953125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.299 513.071 19.299 513.071 19.299 513.071 19.299 0 19.299 0 19.299 0 19.299 0 19.299 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.299 513.071 19.299 513.071 19.299 513.071 19.299 0 19.299 0 19.299 0 19.299 0 19.299 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="749.135314941406" YPOS="446.173228346457" WIDTH="513.071166992188" HEIGHT="29.6907348632812" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 29.6907 513.071 29.6907 513.071 29.6907 513.071 29.6907 0 29.6907 0 29.6907 0 29.6907 0 29.6907 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 29.6907 513.071 29.6907 513.071 29.6907 513.071 29.6907 0 29.6907 0 29.6907 0 29.6907 0 29.6907 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="749.135333007812" YPOS="98.1977179820147" WIDTH="513.071166992188" HEIGHT="104.220901489258" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 104.221 513.071 104.221 513.071 104.221 513.071 104.221 0 104.221 0 104.221 0 104.221 0 104.221 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 104.221 513.071 104.221 513.071 104.221 513.071 104.221 0 104.221 0 104.221 0 104.221 0 104.221 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="749.135314941406" YPOS="931.297678068866" WIDTH="513.071166992188" HEIGHT="19.7463989257812" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.7464 513.071 19.7464 513.071 19.7464 513.071 19.7464 0 19.7464 0 19.7464 0 19.7464 0 19.7464 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.7464 513.071 19.7464 513.071 19.7464 513.071 19.7464 0 19.7464 0 19.7464 0 19.7464 0 19.7464 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="749.135314941406" YPOS="1042.79303603284" WIDTH="513.071166992188" HEIGHT="357.019287109375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 357.019 513.071 357.019 513.071 357.019 513.071 357.019 0 357.019 0 357.019 0 357.019 0 357.019 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 357.019 513.071 357.019 513.071 357.019 513.071 357.019 0 357.019 0 357.019 0 357.019 0 357.019 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347503662109" YPOS="546.309265136719" WIDTH="513.071166992188" HEIGHT="17.814453125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 17.8145 513.071 17.8145 513.071 17.8145 513.071 17.8145 0 17.8145 0 17.8145 0 17.8145 0 17.8145 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 17.8145 513.071 17.8145 513.071 17.8145 513.071 17.8145 0 17.8145 0 17.8145 0 17.8145 0 17.8145 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347503662109" YPOS="1122.99340820312" WIDTH="513.071166992188" HEIGHT="117.336547851562" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 117.337 513.071 117.337 513.071 117.337 513.071 117.337 0 117.337 0 117.337 0 117.337 0 117.337 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 117.337 513.071 117.337 513.071 117.337 513.071 117.337 0 117.337 0 117.337 0 117.337 0 117.337 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347503662109" YPOS="1304.41075602854" WIDTH="513.071166992188" HEIGHT="118.446899414062" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 118.447 513.071 118.447 513.071 118.447 513.071 118.447 0 118.447 0 118.447 0 118.447 0 118.447 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 118.447 513.071 118.447 513.071 118.447 513.071 118.447 0 118.447 0 118.447 0 118.447 0 118.447 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347503662109" YPOS="1585.04064941406" WIDTH="513.071166992188" HEIGHT="19.842529296875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.8425 513.071 19.8425 513.071 19.8425 513.071 19.8425 0 19.8425 0 19.8425 0 19.8425 0 19.8425 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.8425 513.071 19.8425 513.071 19.8425 513.071 19.8425 0 19.8425 0 19.8425 0 19.8425 0 19.8425 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34750366" YPOS="1641.73356278583" WIDTH="513.071167" HEIGHT="19.8425293" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.8425 513.071 19.8425 513.071 19.8425 513.071 19.8425 0 19.8425 0 19.8425 0 19.8425 0 19.8425 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.8425 513.071 19.8425 513.071 19.8425 513.071 19.8425 0 19.8425 0 19.8425 0 19.8425 0 19.8425 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="749.13531494" YPOS="987.99059145079" WIDTH="513.071167" HEIGHT="19.74639893" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PCOLOR="C Cave Orange" PCOLOR2="White" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.7464 513.071 19.7464 513.071 19.7464 513.071 19.7464 0 19.7464 0 19.7464 0 19.7464 0 19.7464 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 19.7464 513.071 19.7464 513.071 19.7464 513.071 19.7464 0 19.7464 0 19.7464 0 19.7464 0 19.7464 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>
