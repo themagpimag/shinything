@@ -6,6 +6,8 @@
 *.out
 
 ## Scribus specific
+*.sla.autosave
+fontconfig
 *.pdf
 
 ## For java
