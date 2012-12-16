@@ -4,8 +4,9 @@ void changeArray(int *p, unsigned int n) {
 }
 
 int main() {
+  int i;
   int arr[4] = {0, 0, 0, 0};
   changeArray(arr,4);
-  for(i=0;i<n;i++) printf("arr[%d]=%d\n",i,arr[i]);
+  for(i=0;i<4;i++) printf("arr[%d]=%d\n",i,arr[i]);
   return 0;
 }
