@@ -18,3 +18,4 @@ fontconfig
 
 ## C/C++/Fortran etc..
 *.o
+*.exe

@@ -1,0 +1,36 @@
+BASH Gaffa Tape
+
+An introduction to the Born Again Shell
+
+BASH (Born Again Shell) has been the default LINUX shell for some years.  The aim of this series is to give an overview of the BASH shell, introducing many different programming concepts which BASH a good "Gaffa Tape" language.  This term is used, since it allows programs written in different languages to be lashed up together with minimal coding.
+
+== Running BASH ==
+
+When a terminal window is opened a shell interpreter is started.  The default shell for the user can be printed by typing,
+
+echo $SHELL
+
+This variable is set within the users account details, either in /etc/passwd or via NIS or LDAP.  For example,
+
+grep pi /etc/passwd
+
+returns
+
+..something..
+
+Running scripts
+
+Scripts can be run by typing the commands directly into a terminal window or by executing a shell script file.  To execute a shell script file, the script should be written in a text file and the text file should start with
+
+#!/bin/bash
+
+where this informs the LINUX operating system which shell interpreter to start when this file is executed.  Then below this first line any number of commands can be added.  (source or execute!!! explain this!!!)
+
+==Variables==
+
+A variable is defined by assigning it a value,
+
+myName="JohnDoe"
+
+BASH is very sensitive to the use of white spaces.  For the declaration to be interpreted correctly there must not be any spaces between the variable name and the equals sign or the equals sign and the value.
+
