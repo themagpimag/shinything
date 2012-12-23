@@ -2,7 +2,7 @@ BASH Gaffa Tape
 
 An introduction to the Born Again Shell
 
-BASH (Born Again Shell) has been the default LINUX shell for some years.  The aim of this series is to give an overview of the BASH shell, introducing many different programming concepts which BASH a good "Gaffa Tape" language.  This term is used, since it allows programs written in different languages to be lashed up together with minimal coding.
+BASH (Born Again Shell) has been the default LINUX shell for several years.  The aim of this series is to give an overview of the BASH shell, providing a description of syntax and built in functions.  BASH is great for lashing together several different programs with minimal overhead.  For this reason, this of series of articles is called "BASH Gaffa Tape".
 
 == Running BASH ==
 
@@ -18,13 +18,25 @@ returns
 
 ..something..
 
-Running scripts
+Scripts can be run by typing the commands directly into a terminal window or by using a shell script text file.  A shell script file can be run in two ways: by sourcing the script
 
-Scripts can be run by typing the commands directly into a terminal window or by executing a shell script file.  To execute a shell script file, the script should be written in a text file and the text file should start with
+source script.sh OR . script.sh
+
+or by executing the script,
+
+./script.sh
+
+When a file is sourced, it is as if the file was typed into the current shell.  Any variables which are declared in the script remain set when the script finishes.  The script also has access to all variables declared in the current shell.  In contrast, when a script is executed a new bash interpreter session is started.  At the end of the bash session any local variables are cleaned up.
+
+To execute a script, the path to the BASH interpreter should be given at the top of the file:
 
 #!/bin/bash
 
-where this informs the LINUX operating system which shell interpreter to start when this file is executed.  Then below this first line any number of commands can be added.  (source or execute!!! explain this!!!)
+Then the file should be made executable
+
+chmod 755 script.sh
+
+Finally, it is possible to type ./script.sh to execute the script.
 
 ==Variables==
 
@@ -33,4 +45,10 @@ A variable is defined by assigning it a value,
 myName="JohnDoe"
 
 BASH is very sensitive to the use of white spaces.  For the declaration to be interpreted correctly there must not be any spaces between the variable name and the equals sign or the equals sign and the value.
+
+Once a variable has been defined, it is used by prepending the name with a dollar sign,
+
+echo $myName
+
+
 
