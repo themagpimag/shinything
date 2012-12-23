@@ -50,5 +50,38 @@ Once a variable has been defined, it is used by prepending the name with a dolla
 
 echo $myName
 
+Variables which are defined in one shell are not available in a sub-shell unless they are exported,
 
+export myName="JohnDoe"
+
+where the variable can be exported when it is declared or afterwards.
+
+==Conditions==
+
+Logic conditions are inclosed in "[]" parentheses.  A variable can be tested using,
+
+#!/bash/bin
+if [[ -z $myName ]]; then
+  echo "myName is not defined"
+else
+  echo "myName is defined as \"$myName\""
+fi
+
+In this case the first condition is true if the variable is not set.  At least one white space must separate the pieces of the logic condition.  Following the instructions given in the first C cave tutorial (issue 3), open a file called condition.sh.  Then save it and change its permissions using
+
+chmod 755
+
+Finally, run the program by typing 
+
+./condition.sh
+
+Then try
+
+export myName=$HOSTNAME
+
+and run the program again.  Then try 
+
+unset myName
+
+and run the program again.  The unset command removes the variable myName. 
 
