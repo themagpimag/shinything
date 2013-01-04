@@ -99,4 +99,4 @@ If a new shell is opened, then the PATH variable will start from the default val
 
 export PATH=$PATH:$HOME/bin
 
-should be added to the end of the ~/.bashrc file. !!!add a comment about .bash_profile!!! 
+should be added to the end of the ~/.bashrc file.  BASH 
