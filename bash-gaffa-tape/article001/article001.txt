@@ -74,6 +74,8 @@ echo "This is a file" > file.txt
 # Print the contents of the file on the screen
 cat file.txt
 
+The operator ">" truncates the file and then appends the standard output to the file.  To append to a file without truncation, the ">>" operator should be used.
+
 If a command produces a lot of output which is not needed, the output can be sent to /dev/null instead:
 
 # Run a command, but throw away the standard output and standard error
@@ -103,7 +105,7 @@ where the variable can be exported when it is declared or afterwards.
 
 Logic conditions are inclosed in "[[]]" parentheses.  The status of a variable can be tested using a logic condition,
 
-#!/bash/bin
+#!/bin/bash
 if [[ -z $myName ]]; then
   echo "myName is not defined"
 else
@@ -154,8 +156,8 @@ where several of the newline characters in the script file are replaced with sem
 
 #!/bin/bash
 # Fill a file with some strings
-echo "Apple Orange"
-echo "Pear"
+echo "Apple Orange" > list # Truncate and then append
+echo "Pear" >> list # Append to list
 # print each word in the input file.
 for l in $(<list); do
   echo $l
@@ -191,8 +193,8 @@ where this example gzips all of the text files in the present working directory.
 
 Command evaluations can be nested,
 
-touch /tmp/t1 # create a zero length file to test basename
-$(basename $(ls /tmp/t1))
+touch /tmp/t1 # Create a zero length file to test basename
+$(basename $(ls /tmp/t1)) # Print the name of the file only
 
 and can include variables,
 
@@ -206,16 +208,17 @@ files_to_gzip=$(ls * | grep -v .gz)
 where this command excludes file names which include ".gz" from the variable.  The pipe operator "|" passes the standard output from one command to the standard input of another command.
 
 ==BASH configuration files==
+----move this to the next tutorial?---
 
-To run a program without the "./" prefix or the full path, the directory in which the program sits should be added to the PATH variable.  For example, the test program could be put into a directory of handy scripts
+To run a program without the "./" prefix or the full path, the directory in which the program sits should be added to the PATH variable.  For example, the test program could be put into a directory of handy scripts.
 
-mkdir ~/bin
-cp condition.sh ~/bin/
-PATH=$PATH:$HOME/bin
+mkdir ~/bin # Create a bin directory in home directory
+mv script.sh ~/bin/ # Move tested script into this directory
+PATH=$PATH:$HOME/bin # Append the ~/bin director to the path
 
 where "~/" is a shorthand way of referring to $HOME and $HOME is the users home directory defined in /etc/passwd, or NIS or LDAP.  Now the script can be run by typing
 
-condition.sh
+script.sh
 
 If a new shell is opened, then the PATH variable will start from the default value.  To append to the PATH variable each time a BASH shell is started, 
 
