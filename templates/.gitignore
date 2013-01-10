@@ -1,0 +1,2 @@
+## Need to override the templates exclude in the parent directory.
+!templates
