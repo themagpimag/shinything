@@ -1,0 +1,66 @@
+structs, unions and data analysis
+
+After a long break the C cave is back again with the next instalment.  In this issue programs start to become more complicated, building upon the previous articles and using the Makefile article in issue 7.  Before continuing, how did you get on with the previous challenge problem?
+
+Challenge solution
+
+..add solution here..
+
+Structs
+
+Structs were introduced quickly in the last article in issue 6, to allow the use of system information.  Structs occupy a continuous block of memory, similar to FORTRAN common blocks.  Their usage syntax is very similar to C++ class definitions with public data members.  A struct is defined with a name and compound definition of variables.  These variables can also be structs.  Starting with a simple struct,
+
+struct dataPoint {
+  unsigned int timeSeconds;
+  float value;
+};
+
+the timeSeconds is defined first in memory and then the float value.  The size of the struct is the sum of the size of the sizes of the two variables.  The definition of the struct should be made before its use and is typically found in a header file, but in this example could be written in the same file before its usage.  To test this simple struct,
+
+int main() {
+  /* Declare a variable of "struct dataPoint" type. */
+  struct dataPoint s;
+
+  /* Assign the struct s some starting values. */
+  s.timeSeconds = 60;
+  s.value = 100.0;
+
+  /* Print the size and memory locations */ 
+  printf("sizeof(s) = %ld\n", sizeof(s));
+  printf("&(s.timeSeconds) = %p\n", &(s.timeSeconds));
+  printf("&(s.value) = %p\n", &(s.value));
+  printf("sizeof(unsigned int) = %ld\n", sizeof(unsigned int));
+  printf("sizeof(float) = %ld\n", sizeof(float)); 
+
+  return 0;
+}
+
+where the program asigns values and prints the memory locations to demonstrate the memory structure.
+
+A struct is similar to a simple variable rather than an array.  When a struct is passed into a function without pointer or reference syntax,
+
+void printDataPoint(struct dataPoint dp) {
+  printf("timeSeconds = %d, value = %f\n", dp.timeSeconds, dp.value);
+}
+
+a copy of the struct is make within the scope of the function.  To modify the struct within a function pointers can be used,
+
+void clearDataPoint(struct dataPoint *dp) {
+  dp->timeSeconds = 0;
+  dp->value = 0.;
+}
+
+where the dp->timeSeconds syntax is equivalent to (*dp).timeSeconds.
+
+----------------
+
+Explain how structs and unions work.
+  - Memory allocation with examples, how to pass them to functions.
+
+Then pack some data into a binary file 
+using a union.
+  - Explain big and little endian, if needed.
+
+problem : encrypt and decrypt a png picture
+additional ideas: static variables, separate files.
+
