@@ -1,4 +1,4 @@
-structs, unions and data analysis
+structs, header files and data analysis
 
 After a long break the C cave is back again with the next instalment.  In this issue programs start to become more complicated, building upon the previous articles and using the Makefile article in issue 7.  Before continuing, how did you get on with the previous challenge problem?
 
@@ -6,7 +6,7 @@ Challenge solution
 
 ..add solution here..
 
-Structs
+==Structs==
 
 Structs were introduced quickly in the last article in issue 6, to allow the use of system information.  Structs occupy a continuous block of memory, similar to FORTRAN common blocks.  Their usage syntax is very similar to C++ class definitions with public data members.  A struct is defined with a name and compound definition of variables.  These variables can also be structs.  Starting with a simple struct,
 
@@ -43,24 +43,90 @@ void printDataPoint(struct dataPoint dp) {
   printf("timeSeconds = %d, value = %f\n", dp.timeSeconds, dp.value);
 }
 
-a copy of the struct is make within the scope of the function.  To modify the struct within a function pointers can be used,
+a copy of the struct is make within the scope of the function.  If the values
+of this private copy are changed within the function, then the values are not
+changed within the function which called it.  To modify the values of a struct
+within a function and retain these values within the function which called it pointers can be used,
 
 void clearDataPoint(struct dataPoint *dp) {
   dp->timeSeconds = 0;
   dp->value = 0.;
 }
 
-where the dp->timeSeconds syntax is equivalent to (*dp).timeSeconds.
+where the dp->timeSeconds syntax is equivalent to (*dp).timeSeconds.  Other
+than the syntax short hand "->", the behaviour is exactly the same as that of
+a simple variable discussed in Issue 5.
 
-----------------
+==Header files ==
 
-Explain how structs and unions work.
-  - Memory allocation with examples, how to pass them to functions.
+Header files must be included to use functions within libraries.  These files
+do not contain the declaration of functions and data structures, but do not
+contain the implementation of the functions.  The implementation is given
+within .c files, which are complied and built into static or dynamic
+libraries.  Similar to standard header files, additional header files can be
+written to contain function definitions and data structures.  For example,
 
-Then pack some data into a binary file 
-using a union.
-  - Explain big and little endian, if needed.
+#ifndef HISTOGRAM_H
+#define HISTOGRAM_H
 
-problem : encrypt and decrypt a png picture
-additional ideas: static variables, separate files.
+#define MAX_BINS 1000;
 
+/* Define a data structure to hold histogram data. */
+struct histogram {
+  unsigned int nBins;
+  float xMin;
+  float xMax;
+  float binContents[MAX_BINS]; 
+};
+
+/* Define the struct as a new type, as a shorthand. */
+typedef struct histogram Histogram;
+
+/* Fill a histogram. */
+int fillHist(Histogram *, float value, float weight);
+
+/* save a histogram to a file. */
+int saveHist(Histogram *, FILE *);
+
+#endif
+
+defines a struct and declares to functions, but does not implement the
+functions.  In the case that the header file is included inside another header
+file, the header file might be included in a program more than once.  To
+prevent this double declaration, a precompiler ifndef case is used.  This case
+is true the first time the header file is included and false for additional
+include statements.  The define statements define values which are replaced
+when the precompiler runs, which is just before the compilation of the code.
+Since dynamic memory allocation has not bee discussed yet, a fixed size array
+is used for the binContents.  Lastly typedef is used to simplify the Histogram
+variable declaration.  The header file must be included in a program before
+the struct or functions are used,
+
+#include "Histogram.h"
+
+where Histogram.h is the name of the header file.  The compiler will search
+for the Histogram.h file within the list of posible directories specified with
+the -I option or within the present working directory.
+
+To build a program the implementation of the functions must be given.
+
+==Challenge problem==
+
+Use the previous article and this article to histogram the system load for 30
+minutes.  Add functions to the histogram.h and histogram.c file to calculate
+the mean and standard deviation of the distribution.
+
+The mean of histogram can be calculated from,
+
+xMean = 0.;
+for (i=1;i<=nBins;i++) { /* Skip underflow and overflow */
+  xMean += binContents[i]/nBins;
+}
+
+The standard deviation is given by,
+
+xStdDev = 0.;
+for(i=1;i<=nBins;i++) { /* Skip underflow and overflow */
+  xStdDev += pow(xMean - binContents[i],2)/(nBins-1);
+}
+if(xStdDev > 0.) xStdDev = sqrt(xStdDev);
