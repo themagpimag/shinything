@@ -14,4 +14,4 @@ veryclean: clean
 
 %.o: %.c
 	@echo "** Compiling C Source" 
-	$(CC) -c $(INCFLAGS) $< 
+	$(CC) -c $< 

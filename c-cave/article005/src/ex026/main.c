@@ -3,9 +3,11 @@
 
 int main() {
   Histogram h;
-  h.nBins = 10.;
-  h.xMin = 0.;
-  h.xMax = 10.;
-  
+  initHist(&h,10,0.,10.);
+  fillHist(&h,0.5,1.0);
+  fillHist(&h,-1.,1.0);
+  fillHist(&h,12.,1.0);
+  saveHist(&h,"Hist.txt"); 
+ 
   return 0;
 }

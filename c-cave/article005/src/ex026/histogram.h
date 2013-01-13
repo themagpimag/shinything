@@ -23,6 +23,6 @@ int initHist(Histogram *hist, unsigned int nBins, float xMin, float xMax);
 int fillHist(Histogram *hist, float value, float weight);
 
 /* save a histogram to a file. */
-int saveHist(Histogram *hist, FILE *);
+int saveHist(Histogram *hist, const char *fileName);
 
 #endif
