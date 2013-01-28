@@ -1,7 +1,0 @@
-
-
-  #include "Histogram.h"
-
-where Histogram.h is the name of the header file.  The compiler will search for the Histogram.h file within the list of possible directories specified with the -I option or within the present working directory.
-
-Now that the header file has been written it can be included in a program,
