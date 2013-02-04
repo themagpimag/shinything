@@ -185,7 +185,9 @@
             <para ALIGN="0" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The solution includes functions and techniques discussed in previous tutorials.  There are more simple ways to form the file name from the host name.  C provides a "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="string.h"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" header file which includes the declaration of several useful functions for string operations.  The full list of functions can be viewed by typing man string.  Strings can be concatenated by using "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" header file which includes the declaration of several useful functions for string operations.  The full list of functions can be viewed by typing "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="man string"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=".  Strings can be concatenated by using "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="strcat"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=","/>
             <para ALIGN="3" LINESP="12"/>
@@ -240,7 +242,11 @@
             <ITEXT CH=" "/>
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Structs were introduced quickly in the last article in issue 6, to allow the use of system information.  Structs occupy a continuous block of memory, similar to FORTRAN common blocks.  Their usage syntax is very similar to C++ class definitions with public data members.  A struct is defined with a name and compound definition of variables.  These variables can also be structs.  Starting with a simple struct,"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Structs were introduced quickly in the last article in issue 6, to allow the use of system information.  Structs occupy a continuous block of memory, similar to FORTRAN common blocks.  The syntax of their usage is very similar to C++ classes with public data members.  A "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="struct"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" is defined with a name and compound definition of variables.  These variables can also be structs.  Starting with a simple "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="struct"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=","/>
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  struct dataPoint {"/>
@@ -253,10 +259,14 @@
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="timeSeconds"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" is defined first in memory and then the float value.  The size of the struct is the sum of the size of the sizes of the two variables.  The definition of the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="int timeSeconds"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" is defined first in memory and then the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="float value"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=".  The size of a "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="struct"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" should be made before its use and is typically found in a header file, but in this example could be written in the same file before its usage.  To test this simple "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" in memory is the sum of the sizes of the variables.  The definition of a "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="struct"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" should be made before its use and is typically found in a header file, but can also be written in the same file before its usage.  To test this simple "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="struct"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=","/>
             <para ALIGN="0" LINESP="12"/>
@@ -296,7 +306,8 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="where the program assigns values and prints the memory locations to demonstrate the memory structure."/>
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When structs are passed to functions, by default a local copy of the struct is made within the function.  This means that when the function finishes the value of the struct in the function which called it is unchanged.  This is the same behaviour as if a basic variable had been passed to the function."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When structs are passed to functions, by default a local copy of the struct is made within the function.  This means that when the function finishes the value of the struct in the function which called it is unchanged.  This is the same behaviour as if a basic variable had been passed to the function"/>
+            <ITEXT CH=","/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" "/>
             <para ALIGN="0" LINESP="12"/>
@@ -308,6 +319,7 @@
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To modify the values of a struct within a function and retain these values, pointers can be used"/>
+            <ITEXT CH=":"/>
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="  void clearDataPoint(struct dataPoint *dp) {"/>
@@ -384,7 +396,7 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="histogram.h"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=", which defines a struct and declares functions, but does not implement the functions it defines.  In the case that the header file is included inside another header file, the header file might be included in a program more than once.  To prevent this double declaration, a precompiler "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ifndef"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" case is used.  This case is true the first time the header file is included and false for additional include statements.  The define statements define values which are replaced when the precompiler runs, which is just before the compilation of the code.  Since dynamic memory allocation has not bee discussed yet, a fixed size array is used for the "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" case is used.  This case is true the first time the header file is included and false for additional include statements.  The define statements define values which are replaced when the precompiler runs, which is just before the compilation of the code.  Since dynamic memory allocation has not been discussed yet, a fixed size array is used for the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="binContents"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=".  Lastly "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="typedef"/>
@@ -626,7 +638,9 @@
         <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.347488976378" YPOS="1812.1272" WIDTH="513.0712" HEIGHT="773.9025" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.903 513.071 773.903 513.071 773.903 513.071 773.903 0 773.903 0 773.903 0 773.903 0 773.903 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.071 0 513.071 0 513.071 0 513.071 0 513.071 773.903 513.071 773.903 513.071 773.903 513.071 773.903 0 773.903 0 773.903 0 773.903 0 773.903 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="Rather than type "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="gcc"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" several times, a Makefile can be used to build the source files and produce the executable,"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" several times, a "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="Makefile"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" can be used to build the source files and produce the executable,"/>
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
             <ITEXT CH="  CC = gcc"/>
@@ -660,7 +674,13 @@
             <ITEXT CH="        $(CC) -c $&lt;"/>
             <para ALIGN="0" LINESP="12"/>
             <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="where more information on Makefiles is given in issue 7.  Put the two .c files in the same directory as the histogram.h and Makefile.  Then type "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="where more information on "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="make"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" is given in issue 7.  Put the two .c files in the same directory as the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="histogram.h"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="Makefile"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=".  Then type "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="make"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" to build the executable.  When the program runs it produces a text file which contains the sum of the weights within the underflow, bins and overflow.  The format is chosen to allow the histogram to be plotted with gnuplot,"/>
             <para ALIGN="3" LINESP="12"/>
@@ -695,7 +715,7 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="histogram.h"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" and "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="histogram.c"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" files to calculate the mean and standard deviation of the distribution.  The mean of histogram can be calculated from,"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" files to calculate the mean and standard deviation of the distribution.  The mean of a histogram can be calculated from,"/>
             <para ALIGN="0" LINESP="12"/>
             <para PARENT="4pt padding"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  xMean = 0.;"/>
@@ -707,7 +727,7 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  }"/>
             <para ALIGN="0" LINESP="12"/>
             <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="The standard deviation is given by,"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="The standard deviation of a histogram is given by,"/>
             <para ALIGN="0" LINESP="12"/>
             <para PARENT="4pt padding"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="  xStdDev = 0.;"/>
