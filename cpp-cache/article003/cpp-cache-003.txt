@@ -1,0 +1,46 @@
+We've covered some of the basics now, and you may be starting to notice some similarities with C++ and C. From this issue onwards, we will be covering what makes C++ and C different. For the basics like if statements and loops, have a read of The C Cave.
+
+Compatibility with C
+
+What this also means is that C++ has access to all of the regular C libraries. To use them, include them as you would any other header, but add a 'c' to the front of the name and take away the '.h'. For example, the C code:
+Becomes the following in C++:
+This will give you access to all the functions inside these libraries, such as printf(), and  rand(), which allows C++ to borrow a lot of useful features from C.
+
+I/O Streams
+
+Not everything is the same though, as you will have noticed. For example, when we were outputting, we used cout instead of printf(). This is because C++ uses I/O (short for Input/Output) streams.
+
+What this really means is that the things that control input and output are just fancy objects, instead of functions. Objects and classes will be covered in depth later on, as that is the fundamental difference between C and C++.
+
+There are 3 main I/O stream headers. These are <iostream>, which controls output and input to and from the console, <fstream> which is used for files, and <sstream>, which is used for strings.
+
+We already know how <iostream> works, so lets look at <fstream>.
+
+Reading and Writing Files
+That code allows use to read in a file named 'test.txt' (in the same directory as the executable) and output it's contents. You could use the '>>' symbol, as we do with cin, but you will find it only reads up to a space. You get this issue with cin as well, so if you're trying to get something like a name which needs spaces, you could use:
+And that will read the whole input and save it to 'variable', which needs to be a string.
+
+For outputting, we can use it just like cout:
+This would create a file named 'test.txt' – in the same directory as the executable – with the text you see. This will overwrite any files already there, however, so be careful!
+
+To avoid this happening, and to do some other interesting things, there are various options we can give when making our file stream objects:
+
+Option
+Description
+Notes
+ios::app
+Appends to an existing file, instead of overwriting it.
+
+ios::in
+Gets input from a file.
+Default when used with ifstream(filename)
+ios::out
+Outputs to a file
+Default when used with ofstream(filename)
+ios::binary
+Reads the file in as binary, instead of text.
+
+
+These are added as an option when you first make the stream. For example:
+Next time we will look at strings and <sstream>, allowing you to convert strings to different data types. Hopefully you can begin to see how all the streams are similar, but suited to their job. Try inputting and outputting from files, and see what interesting things you could do.
+By Alex Kerr

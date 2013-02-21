@@ -79,7 +79,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="518.116535433071" YPOS="270.4604398775" WIDTH="138.968503937008" HEIGHT="35.3877165354331" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 138.969 0 138.969 0 138.969 0 138.969 0 138.969 35.3877 138.969 35.3877 138.969 35.3877 138.969 35.3877 0 35.3877 0 35.3877 0 35.3877 0 35.3877 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 138.969 0 138.969 0 138.969 0 138.969 0 138.969 35.3877 138.969 35.3877 138.969 35.3877 138.969 35.3877 0 35.3877 0 35.3877 0 35.3877 0 35.3877 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.2678555855936" gYpos="142.796616357756" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FCOLOR="White" CH="Bryan Andrew Butler "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FCOLOR="White" CH="Alex Kerr"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -164,32 +164,6 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec ullamcorper lectus. Nullam sem purus, fermentum in accumsan a, condimentum at diam. Vivamus faucibus pellentesque ligula vitae mattis. Sed porta, mi sit amet vestibulum mattis, justo justo sodales libero, id cursus enim nisi non neque. Curabitur vel urna at metus dignissim dictum. Integer tempor eros ut quam vehicula consequat. Phasellus volutpat sagittis risus. Suspendisse at porta mi."/>
-            <para/>
-            <para/>
-            <ITEXT CH="Integer mollis nunc in lorem pretium feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam sed nulla ac velit laoreet bibendum. Nulla vel dui nisl. Ut egestas dolor ut erat suscipit vel tincidunt erat venenatis. Sed erat libero, molestie placerat bibendum sit amet, molestie non mauris. Vivamus velit magna, aliquet ac ornare in, sodales nec lacus. Curabitur vel purus leo. Nam mattis porttitor turpis id vulputate."/>
-            <para/>
-            <para/>
-            <ITEXT CH="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ullamcorper accumsan quam, vitae dignissim magna adipiscing ut. Quisque lobortis justo id diam iaculis iaculis. Vestibulum tincidunt congue arcu. Pellentesque ornare tincidunt sapien. Curabitur convallis adipiscing odio eu commodo. Aliquam ut velit urna. Donec eu libero nunc."/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <para/>
-            <ITEXT CH="Cras et felis purus. Nam ipsum leo, tincidunt non eleifend nec, porta eget est. Phasellus sed urna sapien, id tempus dolor. Sed non ligula orci. Maecenas luctus bibendum lacus, non rhoncus turpis interdum ut.  elementum aliquet mi. Sed nisl lorem, dictum ac ullamcorper id, adipiscing sodales velit. Phasellus a massa a leo volutpat tristique. Suspendisse potenti. "/>
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec ullamcorper lectus. Nullam sem purus, fermentum in accumsan a, condimentum at diam. Vivamus faucibus pellentesque ligula vitae mattis. Sed porta, mi sit amet vestibulum mattis, justo justo sodales libero, id cursus enim nisi non neque. Curabitur vel urna at metus dignissim dictum. Integer tempor eros ut quam vehicula consequat. Phasellus volutpat sagittis risus. Suspendisse at porta mi."/>
             <para/>
@@ -236,6 +210,89 @@
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="413.34708662126" YPOS="86.1633858267717" WIDTH="279.6529134" HEIGHT="34.0837795275591" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Regular" FONTSIZE="14" FCOLOR="White" CH="The sub-header Text Goes Here"/>
             <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="100.3125" YPOS="51.375" WIDTH="594.959362562019" HEIGHT="161.248818897638" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.793738286848198" LOCALSCY="0.793738286848198" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../templates/cpp-cache/Cppcache.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 594.959 0 594.959 0 594.959 0 594.959 0 594.959 161.249 594.959 161.249 594.959 161.249 594.959 161.249 0 161.249 0 161.249 0 161.249 0 161.249 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 594.959 0 594.959 0 594.959 0 594.959 0 594.959 161.249 594.959 161.249 594.959 161.249 594.959 161.249 0 161.249 0 161.249 0 161.249 0 161.249 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="358.333333333333" WIDTH="538.588346456693" HEIGHT="475.211233595801" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 475.211 538.588 475.211 538.588 475.211 538.588 475.211 0 475.211 0 475.211 0 475.211 0 475.211 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 475.211 538.588 475.211 538.588 475.211 538.588 475.211 0 475.211 0 475.211 0 475.211 0 475.211 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="We've covered some of the basics now, and you may be starting to notice some similarities with C++ and C. From this issue onwards, we will be covering what makes C++ and C different. For the basics like if statements and loops, have a read of The C Cave."/>
+            <para ALIGN="3"/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Compatibility with C"/>
+            <para/>
+            <para ALIGN="3"/>
+            <ITEXT CH="What this also means is that C++ has access to all of the regular C libraries. To use them, include them as you would any other header, but add a 'c' to the front of the name and take away the '.h'. For example, the C code:"/>
+            <para ALIGN="3"/>
+            <ITEXT CH="Becomes the following in C++:"/>
+            <para ALIGN="3"/>
+            <ITEXT CH="This will give you access to all the functions inside these libraries, such as printf(), and  rand(), which allows C++ to borrow a lot of useful features from C."/>
+            <para ALIGN="3"/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="I/O Streams"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Not everything is the same though, as you will have noticed. For example, when we were outputting, we used cout instead of printf(). This is because C++ uses I/O (short for Input/Output) streams."/>
+            <para/>
+            <para/>
+            <ITEXT CH="What this really means is that the things that control input and output are just fancy objects, instead of functions. Objects and classes will be covered in depth later on, as that is the fundamental difference between C and C++."/>
+            <para/>
+            <para/>
+            <ITEXT CH="There are 3 main I/O stream headers. These are &lt;iostream&gt;, which controls output and input to and from the console, &lt;fstream&gt; which is used for files, and &lt;sstream&gt;, which is used for strings."/>
+            <para/>
+            <para/>
+            <ITEXT CH="We already know how &lt;iostream&gt; works, so lets look at &lt;fstream&gt;."/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Reading and Writing Files"/>
+            <para/>
+            <ITEXT CH="That code allows use to read in a file named 'test.txt' (in the same directory as the executable) and output it's contents. You could use the '&gt;&gt;' symbol, as we do with cin, but you will find it only reads up to a space. You get this issue with cin as well, so if you're trying to get something like a name which needs spaces, you could use:"/>
+            <para/>
+            <ITEXT CH="And that will read the whole input and save it to 'variable', which needs to be a string."/>
+            <para/>
+            <para/>
+            <ITEXT CH="For outputting, we can use it just like cout:"/>
+            <para/>
+            <ITEXT CH="This would create a file named 'test.txt' – in the same directory as the executable – with the text you see. This will overwrite any files already there, however, so be careful!"/>
+            <para/>
+            <para/>
+            <ITEXT CH="To avoid this happening, and to do some other interesting things, there are various options we can give when making our file stream objects:"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Option"/>
+            <para/>
+            <ITEXT CH="Description"/>
+            <para/>
+            <ITEXT CH="Notes"/>
+            <para/>
+            <ITEXT CH="ios::app"/>
+            <para/>
+            <ITEXT CH="Appends to an existing file, instead of overwriting it."/>
+            <para/>
+            <para/>
+            <ITEXT CH="ios::in"/>
+            <para/>
+            <ITEXT CH="Gets input from a file."/>
+            <para/>
+            <ITEXT CH="Default when used with ifstream(filename)"/>
+            <para/>
+            <ITEXT CH="ios::out"/>
+            <para/>
+            <ITEXT CH="Outputs to a file"/>
+            <para/>
+            <ITEXT CH="Default when used with ofstream(filename)"/>
+            <para/>
+            <ITEXT CH="ios::binary"/>
+            <para/>
+            <ITEXT CH="Reads the file in as binary, instead of text."/>
+            <para/>
+            <para/>
+            <para/>
+            <ITEXT CH="These are added as an option when you first make the stream. For example:"/>
+            <para/>
+            <ITEXT CH="Next time we will look at strings and &lt;sstream&gt;, allowing you to convert strings to different data types. Hopefully you can begin to see how all the streams are similar, but suited to their job. Try inputting and outputting from files, and see what interesting things you could do."/>
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
