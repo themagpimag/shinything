@@ -1,0 +1,100 @@
+C is an excellent language for building fast and very efficient programs.  It can be found in applications where speed and memory footprint matter, such as the LINUX kernel and data acquisition systems.
+
+When learning a new language it is a good idea to first solve the programming problem with pen and paper before reaching for the keyboard.  Pseudo-code and flow diagrams provide methods for doing this.  Particular languages tend to prefer particular solutions to a given problem.  However, this is something that can be understood with practice.
+
+1 – Getting off the ground
+
+Right, time to get something running.  Here is a first C program,
+
+ #include <stdio.h>
+ int main() 
+ {
+   /* Print a string to the screen. */
+   printf("In the beginning...\n");
+   /* Return 0 to signal success. */   
+   return 0;
+ } 		                          first.c
+
+Edit, compile and run
+
+The first.c program should be typed in using a text editor.  For this tutorial, nano is used as an example text editor.  Some useful nano command are given in the table below,
+
+
+
+Open two terminal windows, one for nano and the other for compilation. (Using the default Raspberry PI Debian image, a terminal window can be opened by clicking on Accessories and then LXTerminal.)  Use nano to create a new file called first.c, type in the program and save it.  Before a C program can be run it has to be compiled.  On LINUX the GNU C compiler (gcc) is used to compile C source code.  In the other terminal window compile the program by typing, gcc -o first first.c
+
+The gcc compiler will then attempt to compile the C program and link it together with the standard libraries to form an executable called first.  If the compiler is successful, no messages will be printed on the screen.  If an error is reported by the compiler, check the line number where the error is reported and try to compile the program again.  When the program has been successfully compiled, run the executable by typing: ./first
+
+This will print the string onto the screen and return zero to the operating system.  In the BASH shell the output value from this return statement is stored in the $? variable.  This variable holds the return statement from the previous command only.  Type echo $? to print the value of $? on the screen.
+
+Printing a string
+
+The execution of the first.c program starts from the main() function.  The function has an integer (int) return value, which is given to the left of the function name.  Any arguments passed into the function would go within the parentheses ().  In this case, no arguments are passed into the main function.  The body of the function is defined by the brackets {}, which is referred to as a compound statement.  A semicolon is used to complete each line or statement within the compound statement.  In the first program there are only two statements, (i) a printf function call to print a string to the screen and (ii) the return statement.  The printf function is a standard library function, but for the program to be compiled its declaration has to be included by including stdio.h.  The linker then finds the library that contains the implementation of this function and forms an executable.
+
+When the printf statement is called it is given a string.  The string is delimited by quotation marks and contains the new line character \n.  Before the printf function call, a comment is written between the /* */ braces.  When writing programs, it is a good idea to  add comments to explain the program to other users or for long-term documentation. 
+
+Keyboard and screen
+
+There are many standard library functions defined in the stdio.h header file.  These functions can be used to read from the keyboard and write to the screen.  Input values can be read from the keyboard using the scanf function,
+
+ #include <stdio.h>
+ int main()
+ {
+   /*Declare an variable to hold a number */
+   int age;
+   /* Ask for input */
+   printf("How old are you? ");
+   /* Read a number from the keyboard */
+   scanf("%d",&age);
+   /* Echo the age */
+   printf("You are %d years old.\n",age);
+   return 0
+ }                                         age.c
+
+In the age.c program an integer variable is declared to hold a value.  The integer variable corresponds to a space in the memory of the computer, which is allocated to hold the value.  The user is asked their age.  Then the program waits for input from the keyboard.  The input is read from the keyboard using the scanf function.  The character code %d tells scanf to read an integer from the keyboard.  The integer is written into the memory allocated to the age variable by passing the memory address of the age variable, which is accessed via &age.  The age value is then written back to the screen using printf.  Notice that printf also uses the %d character code to denote integer output.  More information on functions in stdio.h can be found by typing,    man stdio
+
+To exit the manual page, type q. There are many LINUX manual pages, which cover other standard library functions and the compiler options (man gcc).  
+
+
+
+
+
+
+Simple mathematical operations
+
+Computers are able to perform many mathematic calculations quickly.  For example,
+
+ #include <stdio.h>
+ int main()
+ {
+   /* Declare three integer variables */
+   int x, y, z;
+   printf("enter two whole numbers, separated by a space: ");
+   /* Read two values from the keyboard */
+   scanf("%d %d",&x,&y);
+   /* add the two values together and place the result in z */
+   z = x + y;
+   printf("%d + %d = %d\n",x,y,z);
+   /*multiply x by 10 and then assign the result to x */
+   x = x * 10;
+   printf("%d + %d = %d\n",x,y,x+y);
+   return 0;
+ }                                simple_maths.c
+
+The program simple_math.c demonstrates addition (+) and multiplication (*) operators.  In a similar manner, subtraction (–) and division (/) can also be used.  Mathematical expressions within a program are executed sequentially.  For example, x=x*10 will start from the current value of x, multiply it by ten and assign the result to x.
+
+Challenge question
+
+Find the errors in the program given below.  There are four errors, which need to be corrected before the program will compile successfully.
+
+int main
+{
+  int i = 100, j = 9, k;
+  i = i/10;
+  k = i - j
+  printf("Well done this program compiles.\n");
+  print("%d - %d = %d\n",i,j,k);
+  return 0;
+}
+
+The solution will be given in the next tutorial. 
