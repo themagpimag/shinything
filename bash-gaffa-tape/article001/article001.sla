@@ -26,13 +26,13 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="code" LINESP="11" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
-        <STYLE NAME="body text" LINESP="12" FONTSIZE="10" LANGUAGE="English"/>
+        <STYLE NAME="body text" ALIGN="3" LINESP="12" FONTSIZE="10" LANGUAGE="English"/>
         <STYLE NAME="heading" LINESP="14" FONT="FreeSans Bold Oblique" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="challenge" LINESP="14" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="underline" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="0" LEVEL="1" NAME="Header_and_footer" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="2" LEVEL="2" NAME="Level_Of_Difficulty" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
@@ -140,7 +140,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="229.338582677165" WIDTH="381.977086614173" HEIGHT="77.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="23" CH="Adding a motorised base part 2"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="23" CH="1 - BASH basics"/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -207,64 +207,64 @@
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.34708661126" YPOS="339.75" WIDTH="538.5883465" HEIGHT="465.86055113252" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 465.861 538.588 465.861 538.588 465.861 538.588 465.861 0 465.861 0 465.861 0 465.861 0 465.861 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 465.861 538.588 465.861 538.588 465.861 538.588 465.861 0 465.861 0 465.861 0 465.861 0 465.861 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="31" BACKITEM="-1">
             <para/>
             <ITEXT CH="BASH (Born Again Shell) has been the default LINUX shell for several years.  The aim of this series is to give an overview of the BASH shell, providing a description of the syntax and built in functions.  BASH is great for lashing together several different programs with minimal overhead.  For this reason, this of series of articles is called &quot;BASH Gaffa Tape&quot;."/>
-            <para ALIGN="3"/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="When reading these articles, it may prove useful to consult the BASH manual page by typing man bash.  The search commands available within man and other commands can be found in the less manual page."/>
-            <para ALIGN="3"/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="Running BASH"/>
             <para PARENT="heading"/>
             <para/>
             <ITEXT CH="When a terminal window is opened a shell interpreter is started.  The default shell for the current user can be printed by typing,"/>
-            <para ALIGN="3"/>
+            <para PARENT="body text"/>
             <para ALIGN="3"/>
             <ITEXT CH="echo $SHELL"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="The default shell is set for each user within /etc/passwd or via NIS or LDAP.  For example,"/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="grep pi /etc/passwd"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="returns"/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="..something.."/>
             <para/>
             <para/>
             <ITEXT CH="Scripts can be run by typing the commands directly into a terminal window or by using a shell script text file.  A shell script file can be run in two ways: by sourcing the script"/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="source script.sh"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="which is equivalent to"/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH=". script.sh"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="or by executing the script,"/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="./script.sh"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="When a file is sourced, it is as if the file was typed into the current shell.  Any variables which are declared in the script remain set when the script finishes.  The script also has access to all of the variables declared in the current shell.  In contrast, when a script is executed a new bash interpreter session is started.  At the end of the bash session any local variables are cleaned up."/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="To execute a script, the path to the BASH interpreter should be given at the top of the file:"/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="#!/bin/bash"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="Then the file should be made executable"/>
             <para/>
             <para/>
             <ITEXT CH="chmod u+x script.sh"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="Finally, it is possible to type ./script.sh to execute the script."/>
             <para/>
@@ -273,20 +273,20 @@
             <para/>
             <para/>
             <ITEXT CH="#!/bin/bash"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="# A simple script to print a string."/>
-            <para/>
-            <ITEXT CH="echo &quot;In the beginning..&quot; # Use an echo command."/>
-            <para/>
+            <para PARENT="code"/>
+            <ITEXT CH="echo &quot;In the beginning..&quot;"/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="Then make the file executable and execute the script.  The echo command prints the string on the screen using the standard out.  Strings starting with &quot;#&quot; are comments.  Comments can be added on a separate line or at the end of a line."/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="Pipe operator"/>
             <para PARENT="heading"/>
             <para/>
             <ITEXT CH="A series of commands can be chained together using the pipe &quot;|&quot; operator.  A pipe has the effect of passing the standard out from one command to the standard in of another command.  This is especially useful when handling strings,"/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="# Print &quot;Hello Joe&quot; then replace Joe with Fred. "/>
             <para PARENT="code"/>
@@ -297,51 +297,53 @@
             <para PARENT="code"/>
             <ITEXT CH="echo &quot;Hello Joe&quot; | sed 's/Joe/Fred/g' | sed 's/Hello/Goodbye/g' "/>
             <para PARENT="code"/>
-            <para/>
+            <para PARENT="body text"/>
             <ITEXT CH="In this example the sed command is used to replace a part of the string.  The sed command (stream editor) is a program in its own right and has a separate manual page."/>
-            <para/>
-            <para/>
-            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Redirection"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
+            <ITEXT CH="Redirection"/>
+            <para PARENT="heading"/>
+            <para PARENT="body text"/>
             <ITEXT CH="The standard output from a program can be directed to a file or a device,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="# Print a string to a file"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="echo &quot;This is a file&quot; &gt; file.txt"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="code"/>
             <ITEXT CH="# Print the contents of the file on the screen"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="cat file.txt"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="The operator &quot;&gt;&quot; truncates the file and then appends the standard output to the file.  To append to a file without truncation, the &quot;&gt;&gt;&quot; operator should be used."/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="If a command produces a lot of output which is not needed, the output can be sent to /dev/null instead:"/>
-            <para/>
-            <para/>
-            <ITEXT CH="# Run a command, but throw away the standard output and standard error"/>
-            <para/>
-            <ITEXT CH="rm /tmp &amp;&gt; /dev/null # Thankfully, this command will fail."/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
+            <ITEXT CH="# Run a command, but throw away the "/>
+            <para PARENT="code"/>
+            <ITEXT CH="# standard output and standard error"/>
+            <para PARENT="code"/>
+            <ITEXT CH="rm /tmp &amp;&gt; /dev/null # This command will fail."/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="A file can be used as the standard input of a command by using &quot;&lt;&quot;.  This will be discussed later in the context of loops."/>
-            <para/>
-            <para/>
-            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Variables"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
+            <ITEXT CH="Variables"/>
+            <para PARENT="heading"/>
+            <para PARENT="body text"/>
             <ITEXT CH="A variable is defined by assigning it a value,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="myName=&quot;JohnDoe&quot;"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="BASH is very sensitive to the use of white spaces.  For the declaration to be interpreted correctly there must not be any spaces between the variable name and the equals sign or the equals sign and the value."/>
-            <para/>
+            <para PARENT="body text"/>
             <para/>
             <ITEXT CH="Once a variable has been defined, it is used by prepending the name with a dollar sign,"/>
             <para/>
@@ -758,122 +760,120 @@
             <para/>
             <para/>
             <ITEXT CH="#!/bin/bash"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="# Declare a string with values separated by white spaces"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="list=&quot;a b c&quot;"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="# print each character in the 'list' variable."/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="for l in $list; do"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="  echo $l"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="done"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="This can also be written on one line as"/>
             <para/>
             <para/>
             <ITEXT CH="list=&quot;a b c&quot;; for l in $list; do echo $l; done"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="where several of the newline characters in the script file are replaced with semi-colons.  The variable list can be replaced with an input file,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="#!/bin/bash"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="# Fill a file with some strings"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="echo &quot;Apple Orange&quot; &gt; list # Truncate and then append"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="echo &quot;Pear&quot; &gt;&gt; list # Append to list"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="# print each word in the input file."/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="for l in $(&lt;list); do"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="  echo $l"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="done"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="This example uses a redirection from an input file to read each word.  BASH separates the words using the space or the new line character."/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="For loops also support C-like iteration,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="#!/bin/bash"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="# Print all numbers from 1 to 10"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="for (( i=1; i&lt;=10; i++ )); do"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="  echo $i"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="done"/>
-            <para/>
+            <para PARENT="code"/>
             <para/>
             <ITEXT CH="Notice that the variable i is not prefixed by a dollar sign within the (()) parentheses of the for loop.  This is an exception for this type of for loop."/>
-            <para/>
-            <para/>
-            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Evaluating commands"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
+            <ITEXT CH="Evaluating commands"/>
+            <para PARENT="heading"/>
+            <para PARENT="body text"/>
             <ITEXT CH="A command can be evaluated by writing it within $().  For example,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="dir_list=$(ls )"/>
-            <para/>
-            <para/>
-            <ITEXT CH="fills the variable dir_list with the text returned by the ls command.  The"/>
-            <para/>
-            <ITEXT CH="syntax $() can be directly used as a variable.  This can be useful within a for loop,"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
+            <ITEXT CH="fills the variable dir_list with the text returned by the ls command.  The syntax $() can be directly used as a variable.  This can be useful within a for loop,"/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="#!/bin/bash"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="for file in $(ls *.txt); do"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="  gzip $file"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="done"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="where this example gzips all of the text files in the present working directory."/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="Command evaluations can be nested,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="touch /tmp/t1 # Create a zero length file to test basename"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="$(basename $(ls /tmp/t1)) # Print the name of the file only"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="and can include variables,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="file=/tmp/t1"/>
-            <para/>
+            <para PARENT="code"/>
             <ITEXT CH="$(basename $(ls $file))"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="Each of the commands can include pipe operations,"/>
-            <para/>
-            <para/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
             <ITEXT CH="files_to_gzip=$(ls * | grep -v .gz)"/>
-            <para/>
-            <para/>
+            <para PARENT="code"/>
+            <para PARENT="body text"/>
             <ITEXT CH="where this command excludes file names which include &quot;.gz&quot; from the variable.  The pipe operator &quot;|&quot; passes the standard output from one command to the standard input of another command."/>
-            <para/>
-            <para/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" FEATURES="inherit underline" CH="Challenge problem"/>
-            <para/>
-            <para/>
-            <ITEXT FONTSIZE="12" CH="Write a program to gzip all of the files in the present working directory.  The program should not gzip files which have the .gz ending.  The solution to the problem will be given in the next tutorial."/>
-            <trail/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
+            <ITEXT CH="Challenge problem"/>
+            <para PARENT="challenge"/>
+            <para PARENT="body text"/>
+            <ITEXT CH="Write a program to gzip all of the files in the present working directory.  The program should not gzip files which have the .gz ending.  The solution to the problem will be given in the next tutorial."/>
+            <trail PARENT="body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.34708661126" YPOS="956.505590551418" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="32" BACKITEM="30">
