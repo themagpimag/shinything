@@ -1,0 +1,57 @@
+Previous Python examples have discussed web server access to programs.  However, sometimes other client server relationships can be useful.  This month's article is the first part of a demonstration of a basic client server application, which shows how other applications might be written.
+
+The Raspberry Pi can be deployed with solar panels or batteries and connect to a network using a Wifi dongle.  In this manner, it can be used for remote monitoring or robotics.  Alternatively, the Raspberry Pi could be used as the control centre of a computational system.  In the first example, the Raspberry Pi could be a client or a server.  In the section example, the Raspberry Pi is likely to be a server.
+
+Servers are processes which listen for clients to connect to them.  When a server receives a request from a client it typically allocates the client a thread.  A thread is a process which runs in parallel.  Often the server listening process runs as one thread and gives the clients each a thread from a limited pool.  When the client is finished, the thread in the server should be released for a new connection.  If the server created a new thread for each client connection it would quickly run out of memory.
+
+Sometimes calculations require more than one computer to find a result quickly.  When physics or engineering problem is described by an equation with many variables, finding the lowest value for the equation can be impossible on paper and take too long with one computer.  To solve this problem, a network of computers can be connected together to calculate many points and numerically solve the equation much more quickly.  While the Raspberry Pi does not have the fastest CPU, it can be used to demonstrate this principle.  For the client server parts of this problem another Raspberry Pi or another computer will be needed.  If you have many other computers to play with or can invite many friends around all the better.
+
+Classes and function evaluation
+
+Create a file called FunctionCalculator.py and add to it,
+ 
+# A class to calculate the value of a function string
+class FunctionCalculator:
+    def evaluate(self, cmd):
+        y = 0.
+        print "exec \"%s\"" % cmd
+        exec cmd
+        print "y = %e" % y
+        return y
+
+# A class to calculate many the result of many equations at once. 
+class SynchronousCalculator:
+    def __init__(self):
+        self.calculator =  FunctionCalculator()
+
+    def evaluate(self, cmds):
+        results=[]
+        for cmd in cmds:
+            results.append(self.calculator.evaluate(cmd))
+        return results
+
+The FunctionCalculator is a simple class which has one member function that evaluates the value of a string as a python command.  The SynchronousCalculator includes an instance of the FunctionCalculator class to evaluate many functions at the same time.  In the case of the FunctionCalculator, the evaluate method takes one string whereas the SynchronousCalculator function takes an array of strings.  
+
+To test FunctionCalculator.py open a python shell by typing python.  Then type:
+
+from FunctionCalculator import FunctionCalculator
+f = FunctionCalculator()
+f.evaluate("y=5*100")
+
+This evaluate function prints the command and the result of evaluating the command.  Many points of a mathematical function can be evaluated using the SynchronousCalculator.  For example, ten points on the curve y=x^2 can be calculated by typing,
+
+from FunctionCalculator import *
+import math
+f_sync = SynchronousCalculator()
+cmds = []
+for x in xrange(11):
+  cmds.append("import math; y = math.pow(%f,2)" % (x))
+
+f_sync.evaluate(cmds)
+
+Notice that the FunctionCalculator class, which is used by the SynchronousCalculator class, does not need to import the math functions until they are needed during the command evaluation.  This becomes very powerful when used with many computers, where the function to be evaluated remotely might not be known before runtime.
+
+The next step needed to improve the speed of calculations is to use more than one computer.  To do this, one Raspberry Pi will be needed as a server and another Raspberry Pi or other computer will be needed as a client.  Connect both Raspberry Pis or the Raspberry Pi and other computer to the network.  Then find the IP addresses for the two machines: LINUX or OSX type ifconfig or on Windows type ipconfig.
+
+TODO: add basic client server example.
+
