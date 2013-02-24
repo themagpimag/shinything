@@ -25,8 +25,15 @@ Email: rpi@sainib.com
 -------------
 
 Norwich Raspberry Pi User and Developer Group
-The Soup Lab, 5 St. Benedict’s View, Grapes Hill, Norwich, NR2 4HH.
+The Soup Lab, 5 St. Benedict's View, Grapes Hill, Norwich, NR2 4HH.
 Saturday 9th March, from 12:00 onwards
 http://norwichrpi.org
 
 --------------
+
+Raspberry Pi themed Oxford geek night (speakers include Eben Upton)
+The Jericho Tavern, 56 Walton St, Jericho, Oxford OX2 6AE
+13th March, 7:30pm
+http://oxford.geeknights.net/
+
+---------------
