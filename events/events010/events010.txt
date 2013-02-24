@@ -1,3 +1,26 @@
- RISC OS show in Wakefield on the 20th April, http://www.wakefieldshow.org.uk/index.php
+Events for issue 10
 
+-------------
+
+RISC OS show
+The Cedar Court Hotel, Wakefield, West Yorkshire, WF4 3QZ
+Saturday, 20th April 2013, 10.30am to 4.30pm
+http://www.wakefieldshow.org.uk/index.php
+
+-------------
+
+CPC Raspberry Jamboree 2013
+Manchester Central Conference Centre, Manchester, United Kingdom
+Saturday, 9th March 2013, 10:30 to 16:00 (WET)
+http://raspberryjamboree.eventbrite.com/
+
+-------------
+
+Bermuda - Raspberry Pi User Group (BRUG)- Raspberry Jam
+Admiralty House, Pembroke, BERMUDA
+Every First Tuesday of the month, 6:00pm to 8:00pm.
+http://bermudaraspberryusergroup.teamsnap.com
+Email: rpi@sainib.com
+
+-------------
 
