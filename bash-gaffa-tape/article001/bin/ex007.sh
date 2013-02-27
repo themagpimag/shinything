@@ -1,7 +1,12 @@
 #!/bin/bash
-# Declare a string with values separated by white spaces
-list="a b c"
-# print each character in the 'list' variable.
-for l in $list; do
-  echo $l
-done
+str1="Raspberry"
+str2="berry"
+if [[ $str1 == "$str2"* ]]; then
+  echo "$str1 begins with $str2"
+fi
+if [[ $str1 == *"$str2" ]]; then
+  echo "$str1 ends with $str2"
+fi
+if [[ $str1 == *"$str2"* ]]; then
+  echo "$str1 contains $str2"
+fi

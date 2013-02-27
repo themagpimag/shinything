@@ -1,5 +1,8 @@
 #!/bin/bash
-# Print all numbers from 1 to 10
-for (( i=1; i<=10; i++ )); do
-  echo $i
+# Fill a file with some strings
+echo "Apple Orange" > list # Truncate and then append
+echo "Pear" >> list # Append to list
+# print each word in the input file.
+for l in $(<list); do
+  echo $l
 done
