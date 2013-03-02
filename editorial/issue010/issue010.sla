@@ -83,14 +83,8 @@
             <ITEXT FONT="FreeSans Bold" CH="Ash Stone"/>
             <ITEXT FONT="FreeSans Regular" CH=" - Chief Editor / Administrator"/>
             <para LINESP="13"/>
-            <ITEXT FONT="FreeSans Bold" CH="Chris 'tzj' Stagg"/>
-            <ITEXT CH=" - Writer / Photographer / Page Design"/>
-            <para LINESP="13"/>
-            <ITEXT FONT="FreeSans Bold" CH="Colin Deady"/>
-            <ITEXT CH=" - Writer / Page Design"/>
-            <para LINESP="13"/>
-            <ITEXT FONT="FreeSans Bold" CH="Jason 'Jaseman' Davies"/>
-            <ITEXT CH=" - Website / Page Design"/>
+            <ITEXT FONT="FreeSans Bold" CH="Isa McKenty"/>
+            <ITEXT CH=" - Page Design"/>
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" CH="Matt '0ther0judge0'"/>
             <ITEXT CH=" - Website / Administrator"/>
@@ -126,6 +120,9 @@
             <para/>
             <ITEXT FONT="FreeSans Bold" CH="Bryan Butler"/>
             <ITEXT CH=" - Page Design / Graphics"/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" CH="Michael Beaucage"/>
+            <ITEXT CH=" - Graphics"/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
