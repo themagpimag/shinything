@@ -1,4 +1,4 @@
 1) Needs header graphic
 2)  Needs author photo
-3)  Spills onto 3 pages
+FIXED - 3)  Spills onto 3 pages
 4)  Page numbers updated (Page numbers on both sides of same page?)
