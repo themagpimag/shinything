@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.1.svn">
-    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="Martin O'Hanlon" COMMENTS="" KEYWORDS="Minecraft, games, raspberry, pi" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="Minecraft on the Raspberry Pi" SUBJECT="Minecraft" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="7" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="0" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.007" dispY="0.007" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="Martin O'Hanlon" COMMENTS="" KEYWORDS="Minecraft, games, raspberry, pi" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="Minecraft on the Raspberry Pi" SUBJECT="Minecraft" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="0" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.007" dispY="0.007" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -383,22 +383,28 @@
             <ITEXT FEATURES="inherit" CH="You control your player with the mouse and keyboard:"/>
             <para PARENT="body text"/>
             <para PARENT="body text"/>
-            <ITEXT CH="Moving - the mouse changes where you look, while the arrow keys move you forward, backward, left and right"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="Moving"/>
+            <ITEXT CH=" - the mouse changes where you look, while the arrow keys move you forward, backward, left and right"/>
             <para PARENT="body list"/>
             <para PARENT="body list"/>
-            <ITEXT CH="Up and down - pressing space will make you jump while you are walking, while double tapping will start you flying. While you are flying space will make you move up and shift will make you go down"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="Up and down"/>
+            <ITEXT CH=" - pressing space will make you jump while you are walking, while double tapping will start you flying. While you are flying space will make you move up and shift will make you go down"/>
             <para PARENT="body list"/>
             <para PARENT="body list"/>
-            <ITEXT CH="Inventory - you can cycle through you inventory using the mouse scroll wheel (or keys 1-8) and change the blocks in your immediate inventory (the strip along the bottom) by pressing E which brings up all the blocks you can use"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="Inventory"/>
+            <ITEXT CH=" - you can cycle through you inventory using the mouse scroll wheel (or keys 1-8) and change the blocks in your immediate inventory (the strip along the bottom) by pressing E which brings up all the blocks you can use"/>
             <para PARENT="body list"/>
             <para PARENT="body list"/>
-            <ITEXT CH="Destroy blocks - press (hold) the left mouse button"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="Destroy blocks"/>
+            <ITEXT CH=" - press (hold) the left mouse button"/>
             <para PARENT="body list"/>
             <para PARENT="body list"/>
-            <ITEXT CH="Place blocks - press the right mouse button"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="Place blocks"/>
+            <ITEXT CH=" - press the right mouse button"/>
             <para PARENT="body list"/>
             <para PARENT="body list"/>
-            <ITEXT CH="Back to Menu - press escape"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="Back to Menu"/>
+            <ITEXT CH=" - press escape"/>
             <para PARENT="body list"/>
             <para PARENT="heading"/>
             <ITEXT CH="The API"/>
@@ -586,11 +592,47 @@
             <ITEXT FONTSIZE="9" CH="  mc.postToChat(&quot;Now thats a big diamond floor!&quot;)"/>
             <para PARENT="code"/>
             <para PARENT="body text"/>
+            <ITEXT FONTSIZE="10" FEATURES="inherit" CH="To recap on the functions covered in this article:"/>
+            <para PARENT="body text"/>
+            <para PARENT="body text"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="postToChat(message)"/>
+            <ITEXT CH=" - communicate with the player(s) in the game"/>
+            <para PARENT="body list"/>
+            <para PARENT="body list"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="getBlock(x, y, z)"/>
+            <ITEXT CH=" - get a block type for a specific position"/>
+            <para PARENT="body list"/>
+            <para PARENT="body list"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="setBlock(x, y, z, blockType, blockData)"/>
+            <ITEXT CH=" - set (change) a block to a specific blockType"/>
+            <para PARENT="body list"/>
+            <para PARENT="body list"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="setBlocks(x1, y1, z1, x2, y2, z2, blockType, blockData)"/>
+            <ITEXT CH=" - set lots of blocks all at the same time by providing 2 sets of co-ordinates (x, y, z) and fill the gap between with a blockType"/>
+            <para PARENT="body list"/>
+            <para PARENT="body list"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="player.getPos()"/>
+            <ITEXT CH=" - get the precise position of a player"/>
+            <para PARENT="body list"/>
+            <para PARENT="body list"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="player.setPos(x, y, z)"/>
+            <ITEXT CH=" - set (change) the players position"/>
+            <para PARENT="body list"/>
+            <para PARENT="body list"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Minecraft_dark_brown" FSHADE="100" CH="player.getTilePos()"/>
+            <ITEXT CH=" - get the position of the block where the player current is"/>
+            <para PARENT="body list"/>
+            <para PARENT="body text"/>
             <ITEXT FONTSIZE="10" FEATURES="inherit" CH="There are few other functions available in the API which should be explored. Using only the small number discussed in this article it is possible with some imagination and a small amount of programming knowledge to create some quite fantastic constructions, tools and utilities."/>
             <para PARENT="body text"/>
             <para PARENT="body text"/>
             <ITEXT FEATURES="inherit" CH="I love Minecraft. It is a tremendously creative game and with the Pi edition’s API it opens up new level of creativity and will hopefully encourage more people to try their hand at programming."/>
             <para PARENT="body text"/>
+            <para/>
+            <para/>
+            <para/>
+            <ITEXT CH="This column reserved fro something to do about MagPi's..."/>
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="956.505615234375" WIDTH="538.588317871094" HEIGHT="724.994645669291" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 724.995 538.588 724.995 538.588 724.995 538.588 724.995 0 724.995 0 724.995 0 724.995 0 724.995 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 724.995 538.588 724.995 538.588 724.995 538.588 724.995 0 724.995 0 724.995 0 724.995 0 724.995 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="34" BACKITEM="20">
@@ -727,7 +769,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347086614173" YPOS="2887.1266237378" WIDTH="255.9354401" HEIGHT="153.3856201" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.557593551416122" LOCALSCY="0.557593551416122" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="5.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 153.386 255.935 153.386 255.935 153.386 255.935 153.386 0 153.386 0 153.386 0 153.386 0 153.386 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 153.386 255.935 153.386 255.935 153.386 255.935 153.386 0 153.386 0 153.386 0 153.386 0 153.386 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347086614173" YPOS="2802.08725365907" WIDTH="255.9354401" HEIGHT="153.3856201" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.557593551416122" LOCALSCY="0.557593551416122" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="5.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 153.386 255.935 153.386 255.935 153.386 255.935 153.386 0 153.386 0 153.386 0 153.386 0 153.386 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 153.386 255.935 153.386 255.935 153.386 255.935 153.386 0 153.386 0 153.386 0 153.386 0 153.386 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
