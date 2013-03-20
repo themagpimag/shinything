@@ -1,2 +1,0 @@
-Added template for the simple intranet article.
-Add files and then remove this file.

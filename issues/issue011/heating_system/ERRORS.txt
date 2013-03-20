@@ -1,5 +1,0 @@
-FIXED 1) Needs header graphic
-1a)  Is it the right resolution at 90x90?  Scribus complained when creating PDFs
-2)  Needs author photo
-FIXED - 3)  Spills onto 3 pages
-4)  Page numbers updated (Page numbers on both sides of same page?) - Layouter's note - penny dropped, will fix when page numbers are set in stone.
