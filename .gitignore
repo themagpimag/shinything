@@ -10,6 +10,12 @@
 *.sla.autosave
 fontconfig
 *.pdf
+GenericCMYK.icm
+*.afm
+*.pfb
+
+## Apple meta data
+.AppleDouble
 
 ## For java
 *.class
