@@ -1,7 +1,4 @@
-Unions.
-Then pack some data into a binary file
-using a union.
-  - Explain big and little endian, if needed.
-
-problem : encrypt and decrypt a png picture
-additional ideas: static variables, separate files.
+Linking to FORTRAN77
+  - Revise struct usage
+  - Revise global vs local variables
+  - Revise nm, compile and link
