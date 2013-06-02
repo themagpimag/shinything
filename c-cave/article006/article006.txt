@@ -1,4 +1,0 @@
-Linking to FORTRAN77
-  - Revise struct usage
-  - Revise global vs local variables
-  - Revise nm, compile and link
