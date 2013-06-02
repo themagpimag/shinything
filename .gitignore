@@ -9,7 +9,6 @@
 ## Scribus specific
 *.sla.autosave
 fontconfig
-*.pdf
 GenericCMYK.icm
 *.afm
 *.pfb
