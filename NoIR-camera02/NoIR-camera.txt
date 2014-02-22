@@ -1,0 +1,80 @@
+The CMOS sensor used in the Raspberry Pi Camera is by default sensitive to infrared, and so it's normally paired with a filter that blocks this so that it responds to light in the same way that our eyes do and colours look natural. The soon-to-be-released Pi NoIR is essentially the original Raspberry Pi camera albeit without this infrared-blocking filter fitted (no IR, noir, get it?)
+
+ 
+
+The extended spectral range of the Pi NoIR means that it can be put to use in all manner of interesting applications. The project described here used it with a source of infrared illumination to create a simple night-vision camera.
+
+ 
+
+Setup
+
+Since the aim was to have something that could be left untethered and outdoors overnight, a waterproof enclosure (http://uk.rs-online.com/web/p/instrument-cases/7739632/) was used to house the electronics and with a rechargeable 10400mAh Li-Ion battery pack (http://uk.rs-online.com/web/p/power-banks/7757517/) for power.
+
+ 
+
+An infrared LED cluster (http://uk.rs-online.com/web/p/ir-leds/7732899/) provided a source of illumination and was attached to a heatstink (http://uk.rs-online.com/web/p/heatsinks/7805928/) for cooling, with power supplied via a constant current LED driver (http://uk.rs-online.com/web/p/constant-current-led-drivers/7063238/). A circular hole was cut in the enclosure and the reflector from a torch glued into this, and a glass window glued onto the outside.
+
+ 
+
+The Pi NoIR camera was affixed next to the infrared light source and a piece of transparent plastic packaging material taped over a smaller hole to provide a window.
+
+ 
+
+Details of the time-lapse scripts used can be found in the blog post from May of this year, Time-lapse Photography with the Raspberry Pi Camera (http://www.designspark.com/eng/blog/time-lapse-photography-with-the-raspberry-pi-camera), and they can be downloaded from DesignShare (http://designshare.designspark.com/eng/projects/16/view/stage/brief).
+
+ 
+
+Results
+
+For the first run the camera was positioned pointing at a somewhat overgrown lawn. A still image was captured every ~10 seconds and the following morning a video compiled from these using mencoder (as described in the above linked blog post). The result can be seen below.
+
+ 
+
+View the video at http://www.designspark.com/eng/blog/nocturnal-wildlife-watching-with-pi-noir
+
+Perhaps not surprisingly, slugs and bugs feature mostly!
+
+ 
+
+For some reason, every now and again a bright red toned still was captured, which accounts for the red flash frames in the video. I'm not quite sure why this is, but it could easily be due to the way I have things set up.
+
+ 
+
+For a second run I positioned the camera on a wall and pointing into a bramble bush. Once again, slugs!
+
+ 
+
+View the video at http://www.designspark.com/eng/blog/nocturnal-wildlife-watching-with-pi-noir
+
+This time there seem to have been fewer and much less intense flashes for some reason.
+
+ 
+
+Room for improvement
+
+More testing is required in order to try and ascertain the cause of the flashes, and it may be that the red activity indicator LED on the camera board is reflecting off the enclosure and onto the lens. Another possibility is that the spacers used to mount the camera board are just that bit too short, and pressure on the camera module is pushing the plug out of the socket on the camera PCB.
+
+ 
+
+I'm not getting quite the intensity of illumination that I had expected, but this could be attributed to the reflector used with the LED cluster — which came from a cheap torch and has incredibly thin silvering that easily comes off — and/or the glass window, or the plastic one for the camera; these all have unknown optical qualities at IR wavelengths. Alternatively, it may be that the LED cluster isn't getting sufficient power, and as a next step I plan to measure the actual current supplied to it.
+
+ 
+
+Final thoughts
+
+While slugs are not the most exciting creatures, the initial results were promising, and once I've seen if I can improve the performance a little I plan to try the camera out in local woodland.
+
+ 
+
+This is just the tip of the iceberg when it comes to uses for an infrared sensitive camera, and I can't wait to see what people will build with the Pi Noir!
+
+ 
+
+Available from RS Components
+
+Pi NoIR                                                                                 7902811
+Waterproof Enclosure                                                   7739632
+Rechargeable 10400mAh Li-Ion Battery Pack       7757517
+Infrared LED Cluster                                                        7732899
+Heatstink                                                                             7805928
+Constant Current LED Driver                                       7063238
