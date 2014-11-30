@@ -1,0 +1,369 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>USB Test and Measurement on the Raspberry Pi</title>
+</head>
+
+<body bgcolor="white" text="black">
+
+<h1 align="Center">Using the Raspberry Pi as a Network Gateway for 
+USB Test and Measurement Equipment</h1>
+<h4 align="Center">Volker Ziemann, 9-AUG-2014</h4>
+
+
+
+I while ago I bought a small Rigol oscilloscope for my home electronics
+projects. The little device sports a USB host port through which it connects to
+a computer. When I naively connected it to my Linux PC it was immediately
+recognized as a usbtmc device, which I could see when checking the systems log
+file. There was also an auto-magically generated device file <tt>/dev/usbtmc0</tt>
+in the usual device file subdirectory. Cool, I thought, let's figure out how to
+talk to my scope.
+<p>
+Some archaeology on the web revealed 
+<a href="http://cp.literature.agilent.com/litweb/pdf/5989-6718EN.pdf">
+application note AN1465-30</a> from Agilent, describing the protocol and
+giving sample C-code of how to talk to usbtmc devices. A while ago I implemented
+that in a small program that sends <a href="http://en.wikipedia.org/wiki/GPIB">GPIB</a> 
+and <a href="http://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments">
+SCPI</a> commands via the above mentioned device file. This worked quite nicely from my 
+Linux host PC. The program I discuss below is a close descendent. 
+</p><p>
+Later, at work we bought a more up-scale oscilloscope that is equipped with an Ethernet 
+port, that allows to use the same GPIB and SCPI commands, but sending them via Ethernet .
+I wanted the same functionality for my inexpensive oscilloscope and employ a Raspberry 
+Pi as a gateway from Ethernet to USB. So, here we go and work out, how to do just that
+using mostly shell scripts and some standard programs. 
+
+</p><h3>Kernel matters</h3>
+
+To start with, I flashed a SD card with the most recent Raspbian image (dated June 20, kernel 3.12)
+and then plugged in the scope. Checking the log revealed that the scope was identified,
+but the usbtmc kernel module was not loaded which a check with <tt>lsmod</tt> showed.
+In fact the kernel module was missing from the default image. So, I needed to compile 
+the usbtmc.ko kernel module by hand. This approach was also discussed in this
+<a href="http://www.raspberrypi.org/forums/viewtopic.php?f=66&amp;t=60784&amp;p=469648">Raspberry 
+Pi forum entry</a> and is fairly straightforward using the instructions from the 
+<a href="https://github.com/notro/rpi-source/wiki">Raspberry Pi kernel sources</a>
+web-page. I followed the instructions on that page, downloaded the rpi-source
+program, upgraded the compiler and copied the running kernel's .config to the root of
+the linux kernel tree (/home/pi/linux if you ran rpi-source from the home directory).
+Examples of how to build kernel modules are given on 
+<a href="https://github.com/notro/rpi-source/wiki/Examples-on-how-to-build-various-modules">
+this page.</a> I tested with the "Hello World" example from that page, which succeeded
+on the first try. 
+<p> 
+Now I needed to locate the source code for the usbtmc kernel module. Fortunately it was 
+present in the kernel tree and I found it using <tt>find . -name usmtmc.c</tt> in 
+/home/pi/linux which reported back <tt>./drivers/usb/class/usbtmc.c</tt>. I copied the 
+usbtmc.c source file to a separate directory under the pi home directory called 
+/home/pi/usbtmc, generated a Makefile containing the line 
+</p><pre>        obj-m := usbtmc.o
+</pre>
+in it and executed the command
+<pre>        make -C /lib/modules/$(uname -r)/build M=$(pwd) modules
+</pre>
+as described on the page with the
+<a href="https://github.com/notro/rpi-source/wiki/Examples-on-how-to-build-various-modules#hello-world-example">
+Hello World example.</a> This generated the <tt>usbtmc.ko</tt> module, which I loaded with
+<pre>        sudo insmod usbtmc.ko
+</pre> 
+I verified that it is loaded with <tt>lsmod</tt> and when connecting the oscilloscope by USB the
+/dev/usbtmc0 device file shows up in the /dev subdirectory. In order to make sure that the module 
+is loaded every time the system boots, I put the command <tt>insmod /home/pi/usbtmc/usbtmc.ko</tt> 
+into the system startup file /etc/rc.local. For convenience I put the source and compiled kernel 
+module into the archive that accompanies this project. Note, however, that the module only works 
+for the kernel it is compiled for.
+<p>
+The permissions and ownership of the device file restrict its use to the root user. This means
+that using it requires preceeding commands with sudo. A somewhat more convenient solution
+is to change the permissions by creating a udev rule by creating a file called 98-usmtmc.rules
+with the single line
+</p><pre>       KERNEL=="usbtmc[0-9]*", GROUP="gpio", MODE="0660"
+</pre>
+and copying it to the /etc/udev/rules.d/ subdirectory. This assigns the group "gpio" to
+the devices with names that start with "usbtmc" and sets the permissions in a way that anyone 
+who belongs to that group can use it. User "pi" is already a member in the default system.
+<p>
+Ideally, everything in this section should be taken care of by the Raspberry kernel maintainers
+and including the usbtmc functionality by simply selecting it when compiling the kernel and the
+modules. I hope this will happen in the future.
+</p><p>
+Once the kernel module is loaded, we can use it in a rudimentary fashion by using the shell's
+<tt>echo</tt> command for writing and <tt>cat</tt> for reading, thus this line
+</p><pre>       echo "*IDN?" &gt; /dev/usbtmc0 ; cat &lt; /dev/usbtmc0
+</pre>
+reads the ID string from the oscilloscope, in my case
+<pre>      Rigol Technologies,DS1052E,DS1EDxxxxxxxxx,00.02.05.02.00
+</pre>
+The command string "*IDN?" is an old standard GPIB command most devices accept and report some 
+string with their description. An ugly side effect of using <tt>cat</tt> is that the <tt>cat</tt> 
+commands times out because it uses the <tt>fread</tt> function call as is explained in 
+<a href="http://www.home.agilent.com/upload/cmc_upload/All/usbtmc.htm">this document.</a> 
+But that can be easily remedied...
+
+<h3>Software</h3>
+
+...by writing user-space software to talk to the oscilloscope over USB. I started writing 
+a bash shell script that mimics the above line, but unfortunately the "-u" option is not 
+supported (any more) by the standard <tt>cat</tt> command. I therefore wrote a small C-program 
+that mimics the <tt>cat -u</tt> command, but uses unbuffered read and write. The relevant 
+code snippet is reproduced here
+<pre>      while (is=read(0,buf,buflen)) {  // 0=stdin
+        if (is!=buflen) {buf[is]='\n'; is++;} // add newline at end
+        write(1,buf,is);            // 1=stdout
+        if (is!=buflen) break;
+      }
+</pre>
+It basically copies stuff from standard input to output in chunks of <tt>buflen</tt> bytes. If 
+fewer bytes arrive, the copy process terminates. I called this program <tt>cat2</tt> and the 
+source code is in the archive accompanying this article. Compile it with <tt>gcc cat2.c -o cat2</tt>. 
+Note that I had to increase the variable <tt>buflen</tt> to larger than the maximum data chunk
+that can be expected and that is a bit more than a megabyte for the small scope I own. This is
+due to a <a href="https://www.mail-archive.com/linux-usb@vger.kernel.org/msg20328.html">quirk in
+the Rigol firmware.</a> Increasing the buffer to 2 megabyte was a simple solution, but you
+might have to adapt the line <tt>const int buflen 2000000</tt> near the top of the <tt>cat2.c</tt>
+source file if you own a different scope. From what I understand, this only affects Rigol scopes.
+<p>
+Note also, that I add a newline character at the end of the transmission, which makes the output
+a little nicer to look at. Just remove the second line in the above code snippet if you dislike
+this.
+</p><p>
+I then used this program in a bash script file I called <tt>talk2scope.sh</tt>, reproduced here
+</p><pre>      #!/bin/bash
+      if [ -z $1 ]; then DEV=/dev/usbtmc0 ; else DEV=$1 ; fi
+      while read line; do
+         if [ -e ${DEV} ] ; then
+            sleep 0.01
+            echo $line &gt; ${DEV}
+            if [[ $line == *\?* ]] ; then
+               sleep 0.01
+	       /home/pi/usbtmc/cat2 &lt; ${DEV}
+            fi
+         else
+            echo "Device ${DEV} does not exist"
+         fi
+      done
+</pre>
+This program reads one line at a time from standard input and pipes that to the usbtmc 
+device file. If there is a question mark in the scpi command, it reads from the device
+and pipes the output to standard output. The sleep commands are needed to give the oscilloscope
+some time to think between commands if they are passed in fast sequence. This bash script is 
+invoked by either of the following two ways
+<pre>      echo "*IDN?" | ./talk2scope.sh
+      ./talk2scope.sh &lt; commands.scpi
+</pre>
+where <tt>commands.scpi</tt> is a text file with one SCPI command per line. 
+<p>
+A word on timing: when testing the program I noticed that transferring a megabyte waveform 
+while the scope is connected to my desktop PC takes about 7.5 seconds. Doing the same local
+transfer on the Raspberry Pi takes about 56 seconds. When transferring shorter waveforms 
+with a few hundred data points, a performance hit is not noticeable.
+</p><p>
+Thus, we can write to and read from the scope on the Raspberry Pi, though the network 
+functionality is still missing. But that's next. 
+
+</p><h3>Networking</h3>
+
+For networking we simply use the <tt>netcat</tt> or <tt>nc</tt> program, the Swiss army knife 
+of the networking population in order to extend standard input and output across the network.
+Just make sure you have the traditional netcat tool installed which provides the -c and -e command 
+line options. If it is missing, install it with
+<pre>      sudo apt-get install netcat-traditional
+</pre>
+which makes the binary <tt>nc.traditional</tt> available. That's the one we use and the server 
+application becomes a one-liner
+<pre>      nc.traditional -l -p 8000 -c /home/pi/usbtmc/talk2scope.sh
+</pre>
+whence netcat opens a network socket on port 8000 (-p 8000) and listens (-l option) there. 
+Standard input and output of the talk2scope program are piped through that socket both ways. 
+We can now send commands to the raspi from any other computer within network reach by starting
+<pre>     netcat 192.168.2.147 8000
+</pre>
+on the remote computer where 192.168.2.147 is the IP number of the Raspberry Pi. In my case the 
+remote computer is a Linux PC running OpenSuSe 13.1 and the netcat binary is called <tt>netcat.</tt> 
+The <tt>talk2scope.sh</tt> standard input and output on the Raspberry Pi are directly linked to 
+those on the remote computer and we can type *IDN? into the netcat program on the remote 
+computer. It then returns the reply from the scope via the Raspberry Pi, to the remote computer. 
+Cool, eh? On the remote computer the flavor of netcat (traditional or BSD) does not matter. It 
+should even work from non-unix machines, which I have not tried, though. 
+<p>
+The only inconvenience now is that the program only works until the connection is closed. In order to
+reopen it we had to log on to the Raspberry Pi and restart the nc.traditional program. However, this
+we can do automatically by wrapping the program into an indefinitely running loop in the following
+way
+</p><pre>      while true; do nc.traditional -l -p 8000 -c /home/pi/usbtmc/talk2scope.sh ; done
+</pre>
+which implicitly assumes we're using the bash shell. The "while true; do done" construction makes
+sure the program starts again, once it terminates. A real work saver. In order to start the 
+usbtmc server gateway on the Raspberry Pi automatically I add the above line to the /etc/rc.local
+system startup file. there i need to specify the absolute path to the binary, such that the 
+last few lines in the rc.local file now look like
+<pre>      echo "Starting USBTMC server on port 8000 and 8001"
+      insmod /home/pi/usbtmc/usbtmc.ko
+      while true; do nc.traditional -l -p 8000 -c /home/pi/usbtmc/talk2scope.sh ; done &amp;
+      while true; do nc.traditional -l -p 8001 -c "/home/pi/usbtmc/talk2scope.sh /dev/usbtmc1" ; done &amp;
+</pre>
+where I also added a second copy of the line to start a second server to listen on port 8001 which 
+makes a second device (a second scope, function generator, spectrum analyzer) available via
+Ethernet on port 8001. The new B+ Raspberry Pi has four USB ports, so you could service up to four 
+devices simultaneously without extra hardware. Note also that the command must be terminated by an 
+ampersand to avoid blocking the execution of the startup process.
+<p>
+At the remote computer we can now talk to the oscilloscope connected to the Raspberry Pi by entering
+</p><pre>      echo "*IDN?" | netcat 192.168.2.147 8000
+</pre>
+and receive the reply on the command line. This is great for shell scripts, but a bit inconvenient
+to use from other programming languages. This can be easily remedied by the
+following script called <tt>make_pipes.sh</tt>
+<pre>    #!/bin/bash
+    if [ ! -e /tmp/pipe_in ];  then mkfifo /tmp/pipe_in  ; fi
+    if [ ! -e /tmp/pipe_out ]; then mkfifo /tmp/pipe_out ; fi
+    while true ; do netcat 192.168.2.147 8000 &lt; /tmp/pipe_in &gt; /tmp/pipe_out ; done &amp;
+</pre>
+where we first create two FIFOs (unless they do not already exist) and use them to communicate with 
+the netcat program. You may need to adapt the IP number and port number to your setup.
+All we have to do on the remote computer in any other program using whatever 
+programming language you prefer, is opening the file <tt>/tmp/pipe_in</tt> for writing and write 
+the SCPI commands to it and open <tt>/tmp/pipe_out</tt> for reading to receive the reply from the 
+oscilloscope. On the command line we write <tt>echo "*IDN?" &gt; /tmp/pipe_in</tt> and receive the 
+reply via <tt>cat /tmp/pipe_out</tt> or <tt>tail -f /tmp/pipe_out</tt>. 
+<p>
+The server worked quite nicely and even transferring large waveforms worked all right. The 
+time to transfer a 1 megabyte waveform to a remote computer takes the same time as a locally
+acquired waveform. Thus we have no performance penalty for the network access, even using a
+simple script based solution. 
+
+</p><h3>Using it </h3>
+
+This section is very specific to my Rigol oscilloscope. You need to check the "Programming 
+Manual" of your own device about what SCPI commands it supports. Here I just want to give
+an idea of what you can do. 
+<p>
+As mentioned before, the simplest way we can access the oscilloscope from the remote computer 
+is by executing either of the two ways
+</p><pre>      echo "*IDN?" | netcat 192.168.2.147 8000
+      echo "*IDN?" &gt; /tmp/pipe_in ; cat /tmp/pipe_out
+</pre>
+where the second method works if the FIFOs are in place and the netcat construction at the end
+of the previous section is running on the remote computer. If you want to send many commands in 
+sequence, use either way
+<pre>      cat commands.scpi | netcat 192.168.2.147 8000
+</pre>
+where the file <tt>commands.scpi</tt> contains the SCPI commands, one per line. The output 
+is returned via standard output. This is convenient to set the oscilloscope into a standard
+configuration, such as setting the vertical and horizontal scale and offset, as well a input
+coupling. You need to consult the "Programming Manual" about details of the supported SCPI 
+commands for your particular oscilloscope. Here is just an example of the contents of such
+a setup file you might call <tt>setup.scpi</tt>
+<pre>      :TIM:SCAL 0.0005
+      :TIM:OFFS 0.001
+      :CHAN1:SCAL 0.5
+      :CHAN1:OFFS -1.5
+      :CHAN1:COUP DC
+      :CHAN2:SCAL 1
+      :CHAN2:OFFS 0.0
+      :CHAN1:COUP DC
+      :KEY:FORC
+</pre>
+SCPI commands are fairly standardized, such that the above set should work with most oscilloscopes
+that support SCPI commands. The last command might be specific to my Rigol scope and returns control
+back to the buttons on the scope itself, rather than keeping them attached to the remote controller.
+<p>
+Another useful feature is reading derived, measured quantities from the scope, such as the frequency
+of the signal, the peak-to-peak value, or the rise time. This is accomplished by the following SCPI 
+commands, placed one command at  a time in a file that I named "meas.scpi"
+</p><pre>      :MEAS:FREQ? CHAN1
+      :MEAS:VPP? CHAN1
+      :MEAS:RIS? CHAN1
+</pre>
+Executing the commands you run the following command
+<pre>      cat meas.scpi &gt; /tmp/pipe_in ; cat /tmp/pipe_out
+</pre>
+and the three values for the currently displayed waveform are returned to standard output on
+the terminal you type the previous command in. Refer to the programming manual for many more
+things to measure.
+
+<h3>Waveforms</h3>
+
+The oscilloscope can also provide waveforms, the traces that you see on the scope's screen. For my
+scope there are different options for the length of the data, either 600 points, which is one
+screen full, or up to 1 million points, which allows to see both the long time scales (milli seconds)
+and very fast details on the nanosecond time scale. The different option are explained in the document
+"DS1000E_D Remote Data TX Commands.pdf" that is available from the Rigol web site. In continuously 
+running mode, that is when the "Run" button on the scope lights green, the traces are 600 points 
+long, come in binary form, and are preceeded by a 10 byte preamble describing the length of the
+waveform data. The waveform is transferred to the remote computer by the SCPI command
+<pre>     :WAV:DATA? CHAN1
+</pre>
+but since the data comes in binary form we need the scale and offset, both for the vertical and
+the horizontal axis with the following SCPI commands  that I put in a file named <tt>settings.scpi</tt>
+<pre>     :TIM:SCAL?
+     :TIM:OFFS?
+     :CHAN1:SCAL?
+     :CHAN1:OFFS?
+     :CHAN2:SCAL?
+     :CHAN2:OFFS?
+     :ACQ:SAMP?
+</pre>
+and run either 
+<pre>     netcat 192.168.2.147 8000 &lt; settings.scpi &gt; settings.txt
+</pre>
+or use the FIFOs with
+<pre>     cat settings.scpi &gt; /tmp/pipe_in ; cat /tmp/pipe_out &gt; settings.txt
+</pre>
+to create a file <tt>settings.txt</tt> with the current scope settings needed in order to be able
+to convert the raw binary data from the scope using the conversion formulas found in the document 
+"DS1000E_D Data Format.pdf" from the Rigol web site to obtain the time in seconds and the vertical 
+scale in volts. I attach a small C-program <tt>rigol_waveform.c</tt> in which the conversion 
+formulae are implemented. The program works both for 600 point waveforms and for the large
+waveforms with over a million points.
+<p>
+In order to obtain a table of values of time and voltage of Channel 1 I first generate the 
+settings.txt file from above and then run
+</p><pre>        echo ":WAV:DATA? CHAN1" &gt; /tmp/pipe_in 
+	./rigol_waveform &lt; /tmp/pipe_out &gt; data.ascii
+</pre>
+which produces a file <tt>data.ascii</tt> with two columns, one for time in seconds and the
+second for the voltage in Volts. This file you can process further in any which way you desire.
+If I want to see the waveform using the <tt>xmgrace</tt> program I replace the second line by
+<pre>       ./rigol_waveform &lt; /tmp/pipe_out | xmgrace -pipe
+</pre>
+which opens a window and displays the waveform. Substitute any other program of your choice.
+<p>
+In order to view the million point waveforms I need to set up the oscilloscope in a special
+way, which I do by preparing a file <tt>long.scpi</tt> containing the following SCPI commands
+</p><pre>      :ACQ:MEMD LONG
+      :WAV:POIN:MODE MAX
+      :STOP
+      :WAV:DATA? CHAN1
+</pre>
+which sets up the internal memory size usage to the maximum value, stops the acquisition, which
+is needed according to the documents mentioned above and then requests the waveform data. Displaying
+the long waveform using the <tt>xmgrace</tt> program I run
+<pre>      cat long.scpi &gt; /tmp/pipe_in 
+      ./rigol_waveform &lt; /tmp/pipe_out | xmgrace -pipe
+</pre>
+which will result in display of a million points and allows zooming into minute details of the
+waveform, while still being able to see the variations on a long time scale.
+
+<h3>Closing</h3>
+
+That's it for now folks. My focus was on ad-hoc networking using netcat, which is a quick-and-dirty
+way to avoid network programming using sockets and remote procedure calls, and still achieving
+reasonably convenient access to a remote device via Ethernet. All we had to do is sticking to
+the old UNIX paradigm of piping standard input to standard output and extending these pipes across
+the network with netcat. 
+<p>
+All scripts and source code to the programs mentioned in this article can be downloaded from
+<a href="http://ziemann.web.cern.ch/ziemann/gadget/usbtmc/usbtmc.tar.gz">here</a>. I assume that you unpack the archive in the home directory of
+the default user <tt>pi</tt> om Raspberry Pi. It unpacks into two subdirectories, one called 
+<tt>usbtmc</tt> that contains the things that run on the raspberry pi and a second one called
+<tt>remote</tt> that contains the programs and scpi commands that execute on the remote computer
+which can be, of course, a second Raspberry Pi. 
+</p><p>
+Needless to say, there are many great sources on the web that discuss interfacing usbtmc devices.
+Particularly useful I found the following two references by 
+<a href="http://www.cibomahto.com/2010/04/controlling-a-rigol-oscilloscope-using-linux-and-python/">
+Cibo Mahto</a> and <a href="https://github.com/dstahlke/rigol_long_mem">Dan Stahlke.</a>
+
+</p></body></html>
